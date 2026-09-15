@@ -44,7 +44,7 @@
   // ---------- Data loading (the "backend") ----------
   async function loadWords() {
     try {
-      const res = await fetch("data/words.json", { cache: "no-store" });
+      const res = await fetch("words.json", { cache: "no-store" });
       const data = await res.json();
       wordBank = data.words || [];
     } catch (e) {
