@@ -66,6 +66,19 @@ own built-in voices if it isn't set up.
 If you skip this, the app still works fine using your browser/device's
 built-in voices (listed under "Device Voices" in the same dropdown).
 
+## Installable app (PWA)
+
+Once hosted on GitHub Pages (HTTPS is required), the app is installable like
+a native app — in Chrome, the browser's menu (⋮) will show **"Install app"**
+or **"Add to Home screen"** on mobile. This works because of three added
+files: `manifest.json` (app name, theme color, icons), `icon-192.png` /
+`icon-512.png` (the app icon), and `sw.js` (a small service worker that also
+lets the app open once it's been visited, even with a flaky connection).
+
+No setup needed — this works automatically once the files are pushed to
+GitHub and Pages is live. It can take a visit or two before Chrome offers
+the install prompt.
+
 ## Put it on GitHub
 
 ```bash

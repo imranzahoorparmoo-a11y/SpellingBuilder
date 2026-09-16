@@ -497,6 +497,12 @@
   });
 
   // ---------- Boot ----------
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("sw.js").catch(() => {});
+    });
+  }
+
   (async function init() {
     await loadWords();
     document.getElementById("streakPill").textContent = `🔥 ${state.stats.currentStreak}`;
