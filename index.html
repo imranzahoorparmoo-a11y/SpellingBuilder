@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Spellbound — Learn to Spell</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="app">
+
+    <!-- Top bar -->
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark"></span>
+        <span class="brand-name">Spellbound</span>
+      </div>
+      <div class="streak-pill" id="streakPill">🔥 0</div>
+    </header>
+
+    <!-- ===================== PRACTICE ===================== -->
+    <main class="screen" id="screen-practice" data-screen="practice">
+
+      <div class="mode-switch" id="modeSwitch">
+        <button class="mode-btn active" data-mode="listen">Listen &amp; Spell</button>
+        <button class="mode-btn" data-mode="fill">Fill the Blank</button>
+        <button class="mode-btn" data-mode="choose">Choose Spelling</button>
+      </div>
+
+      <section class="practice-card">
+        <p class="eyebrow-free-label" id="progressLabel">Word 1</p>
+
+        <div id="listenArea">
+          <button class="listen-btn" id="listenBtn" aria-label="Listen to the word">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 9V15H8L13 20V4L8 9H4Z" fill="currentColor"/>
+              <path d="M16.5 8.5C17.5 9.5 18 10.7 18 12C18 13.3 17.5 14.5 16.5 15.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+              <path d="M19 6C20.8 7.8 21.7 9.8 21.7 12C21.7 14.2 20.8 16.2 19 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity="0.6"/>
+            </svg>
+          </button>
+        </div>
+
+        <div id="maskedArea" hidden>
+          <p class="masked-word" id="maskedWord"></p>
+        </div>
+
+        <p class="hint" id="hintText">Tap the speaker to hear the word.</p>
+
+        <div class="type-area" id="typeArea" hidden>
+          <input class="type-input" id="typeInput" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Type what you hear..." />
+          <button class="check-btn" id="checkBtn">Check</button>
+        </div>
+
+        <div class="options" id="optionsWrap"></div>
+
+        <div class="feedback" id="feedback"></div>
+
+        <button class="next-btn" id="nextBtn" hidden>Next word</button>
+      </section>
+
+      <section class="session-bar">
+        <div class="session-stat">
+          <span class="session-num" id="sessionCorrect">0</span>
+          <span class="session-lbl">Correct</span>
+        </div>
+        <div class="session-stat">
+          <span class="session-num" id="sessionSeen">0</span>
+          <span class="session-lbl">Seen</span>
+        </div>
+        <div class="session-stat">
+          <span class="session-num" id="sessionAccuracy">—</span>
+          <span class="session-lbl">Accuracy</span>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ===================== STATS ===================== -->
+    <main class="screen" id="screen-stats" data-screen="stats" hidden>
+      <h1 class="screen-title">Your progress</h1>
+
+      <section class="stat-grid">
+        <div class="stat-tile">
+          <span class="stat-value" id="statTotal">0</span>
+          <span class="stat-label">Words practiced</span>
+        </div>
+        <div class="stat-tile">
+          <span class="stat-value" id="statAccuracy">0%</span>
+          <span class="stat-label">Overall accuracy</span>
+        </div>
+        <div class="stat-tile">
+          <span class="stat-value" id="statBestStreak">0</span>
+          <span class="stat-label">Best streak</span>
+        </div>
+        <div class="stat-tile">
+          <span class="stat-value" id="statMastered">0</span>
+          <span class="stat-label">Words mastered</span>
+        </div>
+      </section>
+
+      <h2 class="section-heading">Last 7 days</h2>
+      <div class="bars" id="dayBars"></div>
+
+      <h2 class="section-heading">Tricky words</h2>
+      <ul class="word-list" id="trickyList"></ul>
+
+      <button class="ghost-btn" id="resetStatsBtn">Reset stats</button>
+    </main>
+
+    <!-- ===================== SETTINGS ===================== -->
+    <main class="screen" id="screen-settings" data-screen="settings" hidden>
+      <h1 class="screen-title">Settings</h1>
+
+      <h2 class="section-heading">Profile</h2>
+      <section class="profile-card">
+        <button class="avatar" id="avatarBtn" aria-label="Change avatar">🙂</button>
+        <input class="name-input" id="nameInput" type="text" placeholder="Your name" maxlength="24" />
+      </section>
+      <div class="avatar-picker" id="avatarPicker" hidden></div>
+
+      <h2 class="section-heading">Voice</h2>
+      <section class="settings-list">
+        <label class="settings-row voice-row">
+          <span>Reading voice</span>
+        </label>
+        <div class="voice-picker-wrap">
+          <select id="voiceSelect" class="voice-select"></select>
+          <button class="preview-btn" id="previewVoiceBtn">🔊 Preview</button>
+        </div>
+        <p class="voice-note">More natural voices come from your browser/device — Chrome and Edge usually ship the best-sounding ones.</p>
+      </section>
+
+      <h2 class="section-heading">Practice</h2>
+      <section class="settings-list">
+        <label class="settings-row">
+          <span>Difficulty</span>
+          <select id="difficultySelect">
+            <option value="all">All levels</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </label>
+        <label class="settings-row">
+          <span>Auto-read new word</span>
+          <input type="checkbox" id="autoReadToggle" class="toggle" />
+        </label>
+        <label class="settings-row">
+          <span>Sound effects</span>
+          <input type="checkbox" id="soundToggle" class="toggle" checked />
+        </label>
+      </section>
+
+      <h2 class="section-heading">About</h2>
+      <section class="about-card">
+        <p><strong>Spellbound</strong> — a small, focused app for building spelling confidence one word at a time.</p>
+        <p class="about-meta">Version 1.0.0 · Word list served from <code>data/words.json</code></p>
+      </section>
+    </main>
+
+    <!-- Bottom nav -->
+    <nav class="tabbar">
+      <button class="tab-btn active" data-target="practice">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 2 2 7l10 5 10-5-10-5Zm0 7L4 5.5v9C4 16.4 7.6 19 12 19s8-2.6 8-4.5v-9L12 9Z"/></svg>
+        <span>Practice</span>
+      </button>
+      <button class="tab-btn" data-target="stats">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M5 21V10h3v11H5Zm6 0V3h3v18h-3Zm6 0V14h3v7h-3Z"/></svg>
+        <span>Stats</span>
+      </button>
+      <button class="tab-btn" data-target="settings">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 15.5A3.5 3.5 0 1 1 12 8.5a3.5 3.5 0 0 1 0 7Zm7.4-3.5c0-.6-.1-1.1-.2-1.6l1.9-1.5-2-3.4-2.2.9c-.9-.7-1.9-1.3-3-1.6L13.5 2h-3l-.4 2.3c-1.1.3-2.1.9-3 1.6l-2.2-.9-2 3.4L4.8 10c-.1.5-.2 1-.2 1.6s.1 1.1.2 1.6L2.9 14.7l2 3.4 2.2-.9c.9.7 1.9 1.3 3 1.6L10.5 22h3l.4-2.3c1.1-.3 2.1-.9 3-1.6l2.2.9 2-3.4-1.9-1.5c.1-.5.2-1 .2-1.6Z"/></svg>
+        <span>Settings</span>
+      </button>
+    </nav>
+
+  </div>
+
+  <!-- ResponsiveVoice: AI voices for the Listen & Spell speaker button -->
+  <script src="https://cdn.responsivevoice.org/sdk/latest/responsivevoice.js"></script>
+  <script>
+    if (typeof responsiveVoice !== "undefined") {
+      responsiveVoice.init({ "apiKey": "OjeLXBKE" });
+    }
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
