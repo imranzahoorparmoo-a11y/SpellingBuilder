@@ -11,9 +11,15 @@ directly on GitHub Pages.
 - `index.html` — app shell and the three screens
 - `style.css` — purple gradient, minimalist styling
 - `app.js` — quiz logic, stats tracking, settings (saved in the browser's `localStorage`)
-- `words.json` — the word list. This is the "backend": the app fetches
-  it at runtime, so you can add or edit words by editing this one file and
-  pushing to GitHub — no code changes needed.
+- `words-general.json` — everyday word list (the "General" category)
+- `words-legal.json` — legal terminology word list (the "Legal" category)
+
+Both word files are the "backend": Practice Mode has a **General / Legal**
+switcher at the top, and the app fetches the matching file at runtime. Add or
+edit words by editing whichever file matches, then push to GitHub — no code
+changes needed. Want a third category? Duplicate one of these files (e.g.
+`words-medical.json`) and add a matching button in `index.html`'s
+`#categorySwitch` with `data-category="medical"`.
 
 All files sit in the same folder on purpose — no subfolders — so uploading
 via GitHub's drag-and-drop web UI always works, even in browsers that don't
@@ -21,7 +27,7 @@ preserve folder structure on drag-and-drop.
 
 ### Adding words
 
-Open `words.json` and add an entry like this:
+Open `words-general.json` or `words-legal.json` (whichever category fits) and add an entry like this:
 
 ```json
 { "word": "necessary", "hint": "Required or essential", "level": "medium",
@@ -40,14 +46,20 @@ more natural-sounding AI voices, with a graceful fallback to your device's
 own built-in voices if it isn't set up.
 
 1. Go to https://responsivevoice.org/register/ and sign up for a **free**
-   API key (personal/non-commercial use).
-2. Add your GitHub Pages domain (e.g. `your-username.github.io`) in their
-   dashboard so the key is authorized for that site.
-3. Open `index.html`, find this line near the bottom:
+   account, then add your GitHub Pages domain (e.g. `your-username.github.io`)
+   as a site in their dashboard.
+2. On your site's dashboard, ResponsiveVoice shows a ready-made snippet with
+   your `apiKey` filled in — copy it.
+3. Open `index.html`, find this block near the bottom:
    ```html
-   <script src="https://code.responsivevoice.org/responsivevoice.js?key=YOUR_RESPONSIVEVOICE_KEY"></script>
+   <script src="https://cdn.responsivevoice.org/sdk/latest/responsivevoice.js"></script>
+   <script>
+     if (typeof responsiveVoice !== "undefined") {
+       responsiveVoice.init({ "apiKey": "OjeLXBKE" });
+     }
+   </script>
    ```
-   Replace `YOUR_RESPONSIVEVOICE_KEY` with the key you got, commit, and push.
+   Replace `"OjeLXBKE"` with your own key from step 2, commit, and push.
 4. In the app's Settings → Voice, you'll now see an "AI Voices (ResponsiveVoice)"
    group at the top of the dropdown — pick one and hit Preview.
 

@@ -3,7 +3,7 @@
 
   const defaultState = {
     profile: { name: "", avatar: "🙂" },
-    settings: { difficulty: "all", autoRead: false, sound: true, practiceMode: "listen", voiceValue: "" },
+    settings: { difficulty: "all", autoRead: false, sound: true, practiceMode: "listen", voiceValue: "", category: "general" },
     stats: {
       totalSeen: 0,
       totalCorrect: 0,
@@ -43,14 +43,15 @@
 
   // ---------- Data loading (the "backend") ----------
   async function loadWords() {
+    const category = state.settings.category || "general";
     try {
-      const res = await fetch("words.json", { cache: "no-store" });
+      const res = await fetch(`words-${category}.json`, { cache: "no-store" });
       const data = await res.json();
       wordBank = data.words || [];
     } catch (e) {
       wordBank = [];
       document.getElementById("hintText").textContent =
-        "Couldn't load the word list. Check data/words.json.";
+        `Couldn't load words-${category}.json. Make sure that file is in the repo.`;
     }
   }
 
@@ -111,6 +112,7 @@
   const progressLabel = document.getElementById("progressLabel");
   const streakPill = document.getElementById("streakPill");
   const modeButtons = document.querySelectorAll(".mode-btn");
+  const categoryButtons = document.querySelectorAll(".category-btn");
 
   modeButtons.forEach(btn => {
     btn.addEventListener("click", () => {
@@ -121,11 +123,29 @@
     });
   });
 
+  categoryButtons.forEach(btn => {
+    btn.addEventListener("click", async () => {
+      if (btn.classList.contains("active")) return;
+      state.settings.category = btn.dataset.category;
+      saveState();
+      categoryButtons.forEach(b => b.classList.toggle("active", b === btn));
+      hintText.textContent = "Loading words...";
+      optionsWrap.innerHTML = "";
+      await loadWords();
+      sessionSeen = 0;
+      sessionCorrect = 0;
+      updateSessionBar();
+      renderWord();
+    });
+  });
+
   let sessionSeen = 0;
   let sessionCorrect = 0;
 
   function rvAvailable() {
-    return typeof responsiveVoice !== "undefined" && responsiveVoice.voiceSupport();
+    if (typeof responsiveVoice === "undefined" || typeof responsiveVoice.speak !== "function") return false;
+    if (typeof responsiveVoice.voiceSupport === "function") return responsiveVoice.voiceSupport();
+    return true;
   }
 
   function speak(text) {
@@ -481,6 +501,7 @@
     await loadWords();
     document.getElementById("streakPill").textContent = `🔥 ${state.stats.currentStreak}`;
     modeButtons.forEach(b => b.classList.toggle("active", b.dataset.mode === (state.settings.practiceMode || "listen")));
+    categoryButtons.forEach(b => b.classList.toggle("active", b.dataset.category === (state.settings.category || "general")));
     renderWord();
   })();
 })();
