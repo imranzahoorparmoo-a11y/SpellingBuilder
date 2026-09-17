@@ -395,14 +395,28 @@
 
     filtered.forEach(w => {
       const li = document.createElement("li");
+      li.className = "wb-row";
+
+      const textWrap = document.createElement("div");
+      textWrap.className = "wb-text";
       const wordSpan = document.createElement("span");
       wordSpan.className = "wb-word";
       wordSpan.textContent = w.word;
       const hintSpan = document.createElement("span");
       hintSpan.className = "wb-hint";
       hintSpan.textContent = w.hint || "";
-      li.appendChild(wordSpan);
-      li.appendChild(hintSpan);
+      textWrap.appendChild(wordSpan);
+      textWrap.appendChild(hintSpan);
+
+      const pronounceBtn = document.createElement("button");
+      pronounceBtn.className = "wb-pronounce";
+      pronounceBtn.setAttribute("aria-label", `Hear "${w.word}"`);
+      pronounceBtn.innerHTML =
+        '<svg viewBox="0 0 24 24" width="18" height="18" fill="none"><path d="M4 9V15H8L13 20V4L8 9H4Z" fill="currentColor"/><path d="M16.5 8.5C17.5 9.5 18 10.7 18 12C18 13.3 17.5 14.5 16.5 15.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>';
+      pronounceBtn.addEventListener("click", () => speak(w.word));
+
+      li.appendChild(textWrap);
+      li.appendChild(pronounceBtn);
       wordBrowseList.appendChild(li);
     });
   }
