@@ -366,17 +366,30 @@
 
   // ---------- Word List screen ----------
   const wordSearchInput = document.getElementById("wordSearchInput");
+  const wordBrowseList = document.getElementById("wordBrowseList");
+  const wordListCategoryButtons = document.querySelectorAll("#wordListCategorySwitch .category-btn");
+  let wordListCategory = "general";
 
-  function renderWordGroup(listEl, words, term) {
-    listEl.innerHTML = "";
+  wordListCategoryButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      wordListCategory = btn.dataset.category;
+      wordListCategoryButtons.forEach(b => b.classList.toggle("active", b === btn));
+      renderWordList();
+    });
+  });
+
+  function renderWordList() {
+    const term = wordSearchInput.value.trim().toLowerCase();
+    const words = wordLists[wordListCategory] || [];
     const filtered = term
       ? words.filter(w =>
           w.word.toLowerCase().includes(term) ||
           (w.hint || "").toLowerCase().includes(term))
       : words;
 
+    wordBrowseList.innerHTML = "";
     if (filtered.length === 0) {
-      listEl.innerHTML = '<li class="empty-note" style="border:none;background:none;padding:4px 2px;">No matches.</li>';
+      wordBrowseList.innerHTML = '<li class="empty-note" style="border:none;background:none;padding:4px 2px;">No matches.</li>';
       return;
     }
 
@@ -390,14 +403,8 @@
       hintSpan.textContent = w.hint || "";
       li.appendChild(wordSpan);
       li.appendChild(hintSpan);
-      listEl.appendChild(li);
+      wordBrowseList.appendChild(li);
     });
-  }
-
-  function renderWordList() {
-    const term = wordSearchInput.value.trim().toLowerCase();
-    renderWordGroup(document.getElementById("generalWordList"), wordLists.general, term);
-    renderWordGroup(document.getElementById("legalWordList"), wordLists.legal, term);
   }
 
   wordSearchInput.addEventListener("input", renderWordList);

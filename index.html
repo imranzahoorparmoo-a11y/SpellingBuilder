@@ -181,11 +181,12 @@
         <input class="search-input" id="wordSearchInput" type="text" placeholder="Search words or meanings..." autocomplete="off" />
       </div>
 
-      <h2 class="section-heading">General</h2>
-      <ul class="word-browse-list" id="generalWordList"></ul>
+      <div class="category-switch" id="wordListCategorySwitch">
+        <button class="category-btn active" data-category="general">General</button>
+        <button class="category-btn" data-category="legal">Legal</button>
+      </div>
 
-      <h2 class="section-heading">Legal</h2>
-      <ul class="word-browse-list" id="legalWordList"></ul>
+      <ul class="word-browse-list" id="wordBrowseList"></ul>
     </main>
 
     <!-- Bottom nav -->
