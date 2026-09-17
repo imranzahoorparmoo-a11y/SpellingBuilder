@@ -263,6 +263,58 @@ button, input, select{ font-family:inherit; }
 .session-num{ font-size:20px; font-weight:800; }
 .session-lbl{ font-size:12px; color:var(--ink-soft); }
 
+/* ---------- Word list ---------- */
+.search-wrap{
+  position:relative;
+  margin:4px 0 20px;
+}
+.search-icon{
+  position:absolute;
+  left:14px; top:50%;
+  transform:translateY(-50%);
+  color:var(--ink-soft);
+  pointer-events:none;
+}
+.search-input{
+  width:100%;
+  padding:13px 14px 13px 40px;
+  border-radius:14px;
+  border:1.5px solid var(--line);
+  background:#fff;
+  font-size:14.5px;
+  font-weight:600;
+  color:var(--ink);
+  outline:none;
+}
+.search-input:focus{ border-color:var(--violet-500); }
+
+.word-browse-list{
+  list-style:none;
+  margin:0 0 8px;
+  padding:0;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+.word-browse-list li{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:14px;
+  padding:12px 14px;
+}
+.word-browse-list .wb-word{
+  font-size:15px;
+  font-weight:700;
+  color:var(--ink);
+  text-transform:capitalize;
+}
+.word-browse-list .wb-hint{
+  display:block;
+  font-size:12.5px;
+  color:var(--ink-soft);
+  margin-top:2px;
+}
+
 /* ---------- Stats ---------- */
 .stat-grid{
   display:grid;

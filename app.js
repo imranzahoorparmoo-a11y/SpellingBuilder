@@ -35,6 +35,7 @@
   }
 
   const state = loadState();
+  const wordLists = { general: [], legal: [] };
   let wordBank = [];
   let currentWord = null;
   let answered = false;
@@ -42,17 +43,21 @@
   const todayKey = () => new Date().toISOString().slice(0, 10);
 
   // ---------- Data loading (the "backend") ----------
-  async function loadWords() {
-    const category = state.settings.category || "general";
+  async function loadAllWords() {
     try {
-      const res = await fetch(`words-${category}.json`, { cache: "no-store" });
-      const data = await res.json();
-      wordBank = data.words || [];
+      const [genRes, legalRes] = await Promise.all([
+        fetch("words-general.json", { cache: "no-store" }),
+        fetch("words-legal.json", { cache: "no-store" })
+      ]);
+      const gen = await genRes.json();
+      const legal = await legalRes.json();
+      wordLists.general = gen.words || [];
+      wordLists.legal = legal.words || [];
     } catch (e) {
-      wordBank = [];
       document.getElementById("hintText").textContent =
-        `Couldn't load words-${category}.json. Make sure that file is in the repo.`;
+        "Couldn't load the word lists. Make sure words-general.json and words-legal.json are in the repo.";
     }
+    wordBank = wordLists[state.settings.category] || wordLists.general;
   }
 
   function filteredBank() {
@@ -94,6 +99,7 @@
     tabs.forEach(t => t.classList.toggle("active", t.dataset.target === name));
     if (name === "stats") renderStats();
     if (name === "settings") renderSettings();
+    if (name === "words") renderWordList();
   }
   tabs.forEach(t => t.addEventListener("click", () => showScreen(t.dataset.target)));
 
@@ -124,14 +130,12 @@
   });
 
   categoryButtons.forEach(btn => {
-    btn.addEventListener("click", async () => {
+    btn.addEventListener("click", () => {
       if (btn.classList.contains("active")) return;
       state.settings.category = btn.dataset.category;
       saveState();
       categoryButtons.forEach(b => b.classList.toggle("active", b === btn));
-      hintText.textContent = "Loading words...";
-      optionsWrap.innerHTML = "";
-      await loadWords();
+      wordBank = wordLists[state.settings.category] || [];
       sessionSeen = 0;
       sessionCorrect = 0;
       updateSessionBar();
@@ -360,6 +364,44 @@
     }
   }
 
+  // ---------- Word List screen ----------
+  const wordSearchInput = document.getElementById("wordSearchInput");
+
+  function renderWordGroup(listEl, words, term) {
+    listEl.innerHTML = "";
+    const filtered = term
+      ? words.filter(w =>
+          w.word.toLowerCase().includes(term) ||
+          (w.hint || "").toLowerCase().includes(term))
+      : words;
+
+    if (filtered.length === 0) {
+      listEl.innerHTML = '<li class="empty-note" style="border:none;background:none;padding:4px 2px;">No matches.</li>';
+      return;
+    }
+
+    filtered.forEach(w => {
+      const li = document.createElement("li");
+      const wordSpan = document.createElement("span");
+      wordSpan.className = "wb-word";
+      wordSpan.textContent = w.word;
+      const hintSpan = document.createElement("span");
+      hintSpan.className = "wb-hint";
+      hintSpan.textContent = w.hint || "";
+      li.appendChild(wordSpan);
+      li.appendChild(hintSpan);
+      listEl.appendChild(li);
+    });
+  }
+
+  function renderWordList() {
+    const term = wordSearchInput.value.trim().toLowerCase();
+    renderWordGroup(document.getElementById("generalWordList"), wordLists.general, term);
+    renderWordGroup(document.getElementById("legalWordList"), wordLists.legal, term);
+  }
+
+  wordSearchInput.addEventListener("input", renderWordList);
+
   document.getElementById("resetStatsBtn").addEventListener("click", () => {
     if (!confirm("Reset all progress and stats?")) return;
     state.stats = structuredClone(defaultState.stats);
@@ -504,7 +546,7 @@
   }
 
   (async function init() {
-    await loadWords();
+    await loadAllWords();
     document.getElementById("streakPill").textContent = `🔥 ${state.stats.currentStreak}`;
     modeButtons.forEach(b => b.classList.toggle("active", b.dataset.mode === (state.settings.practiceMode || "listen")));
     categoryButtons.forEach(b => b.classList.toggle("active", b.dataset.category === (state.settings.category || "general")));

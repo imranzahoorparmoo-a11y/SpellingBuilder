@@ -25,6 +25,13 @@ All files sit in the same folder on purpose — no subfolders — so uploading
 via GitHub's drag-and-drop web UI always works, even in browsers that don't
 preserve folder structure on drag-and-drop.
 
+## Word List tab
+
+Alongside Practice, Stats, and Settings, there's a fourth tab — **Word List**
+— with a search bar and two sections (General, Legal) listing every word and
+its meaning from the two JSON files above. Typing in the search box filters
+both sections live, by word or by meaning.
+
 ### Adding words
 
 Open `words-general.json` or `words-legal.json` (whichever category fits) and add an entry like this:
