@@ -145,6 +145,7 @@
 
   let sessionSeen = 0;
   let sessionCorrect = 0;
+  let autoAdvanceTimer = null;
 
   function rvAvailable() {
     if (typeof responsiveVoice === "undefined" || typeof responsiveVoice.speak !== "function") return false;
@@ -177,6 +178,10 @@
     feedbackEl.textContent = "";
     feedbackEl.className = "feedback";
     nextBtn.hidden = true;
+    if (autoAdvanceTimer) {
+      clearTimeout(autoAdvanceTimer);
+      autoAdvanceTimer = null;
+    }
 
     if (!currentWord) {
       optionsWrap.innerHTML = "";
@@ -249,6 +254,7 @@
     recordAttempt(currentWord.word, isCorrect);
     updateSessionBar();
     nextBtn.hidden = false;
+    autoAdvanceTimer = setTimeout(renderWord, 1400);
   }
 
   checkBtn.addEventListener("click", handleTypedAnswer);
@@ -280,6 +286,7 @@
     recordAttempt(currentWord.word, isCorrect);
     updateSessionBar();
     nextBtn.hidden = false;
+    autoAdvanceTimer = setTimeout(renderWord, 1400);
   }
 
   function updateSessionBar() {
