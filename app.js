@@ -385,7 +385,9 @@
       ? words.filter(w =>
           w.word.toLowerCase().includes(term) ||
           (w.hint || "").toLowerCase().includes(term))
-      : words;
+      : [...words];
+
+    filtered.sort((a, b) => a.word.localeCompare(b.word));
 
     wordBrowseList.innerHTML = "";
     if (filtered.length === 0) {
