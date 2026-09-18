@@ -1,50 +1,4262 @@
 {
   "version": 1,
   "words": [
-    { "word": "necessary", "hint": "Required or essential", "level": "medium", "options": ["necessary", "neccessary", "necesary", "neccesary"] },
-    { "word": "definitely", "hint": "Without doubt", "level": "medium", "options": ["definitely", "definately", "definitly", "defenitely"] },
-    { "word": "separate", "hint": "To divide or set apart", "level": "medium", "options": ["separate", "seperate", "seperete", "separete"] },
-    { "word": "occurrence", "hint": "An event or incident", "level": "hard", "options": ["occurrence", "occurence", "ocurrence", "occurrance"] },
-    { "word": "rhythm", "hint": "A regular repeated pattern of sound", "level": "hard", "options": ["rhythm", "rythm", "rythem", "rhytm"] },
-    { "word": "believe", "hint": "To accept as true", "level": "easy", "options": ["believe", "beleive", "belive", "beleave"] },
-    { "word": "achieve", "hint": "To successfully reach a goal", "level": "medium", "options": ["achieve", "acheive", "achive", "acheve"] },
-    { "word": "accommodate", "hint": "To provide space or lodging for", "level": "hard", "options": ["accommodate", "acommodate", "accomodate", "acomodate"] },
-    { "word": "embarrass", "hint": "To cause someone discomfort or shame", "level": "hard", "options": ["embarrass", "embarass", "embarras", "emberrass"] },
-    { "word": "conscience", "hint": "Inner sense of right and wrong", "level": "hard", "options": ["conscience", "conscious", "consciense", "conscence"] },
-    { "word": "government", "hint": "The system that governs a state", "level": "medium", "options": ["government", "goverment", "govenment", "governmant"] },
-    { "word": "restaurant", "hint": "A place where meals are served", "level": "medium", "options": ["restaurant", "resturant", "restarant", "restaraunt"] },
-    { "word": "beautiful", "hint": "Pleasing to look at", "level": "easy", "options": ["beautiful", "beutiful", "beatiful", "beautifull"] },
-    { "word": "calendar", "hint": "A chart showing days and months", "level": "medium", "options": ["calendar", "calender", "calandar", "callendar"] },
-    { "word": "vacuum", "hint": "A space entirely devoid of matter", "level": "hard", "options": ["vacuum", "vaccum", "vacume", "vaccuum"] },
-    { "word": "maintenance", "hint": "The process of keeping something in good condition", "level": "hard", "options": ["maintenance", "maintainance", "maintenence", "maintnance"] },
-    { "word": "privilege", "hint": "A special right or advantage", "level": "hard", "options": ["privilege", "privelege", "priviledge", "previlege"] },
-    { "word": "questionnaire", "hint": "A set of printed questions", "level": "hard", "options": ["questionnaire", "questionaire", "questionnair", "questionere"] },
-    { "word": "tomorrow", "hint": "The day after today", "level": "easy", "options": ["tomorrow", "tommorow", "tomorow", "tommorrow"] },
-    { "word": "until", "hint": "Up to the point when", "level": "easy", "options": ["until", "untill", "untile", "intill"] },
-    { "word": "occasion", "hint": "A particular time or event", "level": "medium", "options": ["occasion", "ocassion", "occassion", "ocasion"] },
-    { "word": "immediately", "hint": "At once, without delay", "level": "medium", "options": ["immediately", "imediately", "immediatly", "imediatly"] },
-    { "word": "recommend", "hint": "To suggest as good or suitable", "level": "medium", "options": ["recommend", "recomend", "reccomend", "recommand"] },
-    { "word": "committee", "hint": "A group appointed for a task", "level": "hard", "options": ["committee", "commitee", "comittee", "committe"] },
-    { "word": "definite", "hint": "Clearly stated or decided", "level": "medium", "options": ["definite", "definit", "definate", "defenite"] },
-    { "word": "existence", "hint": "The state of being real", "level": "medium", "options": ["existence", "existance", "existince", "exsistence"] },
-    { "word": "grateful", "hint": "Feeling thankful", "level": "easy", "options": ["grateful", "gratefull", "greatful", "gratful"] },
-    { "word": "harass", "hint": "To subject to aggressive pressure", "level": "hard", "options": ["harass", "harrass", "harras", "harresss"] },
-    { "word": "independent", "hint": "Free from outside control", "level": "medium", "options": ["independent", "independant", "indipendent", "independint"] },
-    { "word": "jewelry", "hint": "Ornaments worn for decoration", "level": "medium", "options": ["jewelry", "jewellery", "jewlery", "jewelery"] },
-    { "word": "knowledge", "hint": "Facts, information, and skills", "level": "medium", "options": ["knowledge", "knowlege", "knowledg", "knowledege"] },
-    { "word": "license", "hint": "An official permit", "level": "medium", "options": ["license", "lisence", "licence", "lisense"] },
-    { "word": "millennium", "hint": "A period of one thousand years", "level": "hard", "options": ["millennium", "millenium", "milennium", "millennuim"] },
-    { "word": "noticeable", "hint": "Easy to notice", "level": "medium", "options": ["noticeable", "noticable", "noticeible", "notisable"] },
-    { "word": "occasionally", "hint": "Now and then", "level": "hard", "options": ["occasionally", "occasionaly", "ocasionally", "occassionally"] },
-    { "word": "possession", "hint": "The state of owning something", "level": "medium", "options": ["possession", "posession", "possesion", "possesssion"] },
-    { "word": "receive", "hint": "To be given or handed something", "level": "easy", "options": ["receive", "recieve", "receve", "receeve"] },
-    { "word": "schedule", "hint": "A plan for carrying out a process", "level": "medium", "options": ["schedule", "shedule", "schedual", "sceduele"] },
-    { "word": "successful", "hint": "Having achieved a desired aim", "level": "easy", "options": ["successful", "succesful", "sucessful", "succesfull"] },
-    { "word": "twelfth", "hint": "The ordinal number for twelve", "level": "hard", "options": ["twelfth", "twelth", "twelfeth", "twelvth"] },
-    { "word": "unforeseen", "hint": "Not anticipated", "level": "hard", "options": ["unforeseen", "unforseen", "unforseeen", "unforceen"] },
-    { "word": "vegetable", "hint": "A plant grown for food", "level": "easy", "options": ["vegetable", "vegtable", "vegatable", "vegetible"] },
-    { "word": "weird", "hint": "Strange or unusual", "level": "easy", "options": ["weird", "wierd", "weerd", "weid"] },
-    { "word": "yacht", "hint": "A medium-sized sailing boat", "level": "hard", "options": ["yacht", "yaht", "yott", "yacth"] },
-    { "word": "sincerely", "hint": "In a genuine, heartfelt way", "level": "medium", "options": ["sincerely", "sincerly", "sincerley", "sinserely"] }
+    {
+      "word": "necessary",
+      "hint": "Required or essential",
+      "level": "medium",
+      "options": [
+        "necessary",
+        "neccessary",
+        "necesary",
+        "neccesary"
+      ]
+    },
+    {
+      "word": "definitely",
+      "hint": "Without doubt",
+      "level": "medium",
+      "options": [
+        "definitely",
+        "definately",
+        "definitly",
+        "defenitely"
+      ]
+    },
+    {
+      "word": "separate",
+      "hint": "To divide or set apart",
+      "level": "medium",
+      "options": [
+        "separate",
+        "seperate",
+        "seperete",
+        "separete"
+      ]
+    },
+    {
+      "word": "occurrence",
+      "hint": "An event or incident",
+      "level": "hard",
+      "options": [
+        "occurrence",
+        "occurence",
+        "ocurrence",
+        "occurrance"
+      ]
+    },
+    {
+      "word": "rhythm",
+      "hint": "A regular repeated pattern of sound",
+      "level": "hard",
+      "options": [
+        "rhythm",
+        "rythm",
+        "rythem",
+        "rhytm"
+      ]
+    },
+    {
+      "word": "believe",
+      "hint": "To accept as true",
+      "level": "easy",
+      "options": [
+        "believe",
+        "beleive",
+        "belive",
+        "beleave"
+      ]
+    },
+    {
+      "word": "achieve",
+      "hint": "To successfully reach a goal",
+      "level": "medium",
+      "options": [
+        "achieve",
+        "acheive",
+        "achive",
+        "acheve"
+      ]
+    },
+    {
+      "word": "accommodate",
+      "hint": "To provide space or lodging for",
+      "level": "hard",
+      "options": [
+        "accommodate",
+        "acommodate",
+        "accomodate",
+        "acomodate"
+      ]
+    },
+    {
+      "word": "embarrass",
+      "hint": "To cause someone discomfort or shame",
+      "level": "hard",
+      "options": [
+        "embarrass",
+        "embarass",
+        "embarras",
+        "emberrass"
+      ]
+    },
+    {
+      "word": "conscience",
+      "hint": "Inner sense of right and wrong",
+      "level": "hard",
+      "options": [
+        "conscience",
+        "conscious",
+        "consciense",
+        "conscence"
+      ]
+    },
+    {
+      "word": "government",
+      "hint": "The system that governs a state",
+      "level": "medium",
+      "options": [
+        "government",
+        "goverment",
+        "govenment",
+        "governmant"
+      ]
+    },
+    {
+      "word": "restaurant",
+      "hint": "A place where meals are served",
+      "level": "medium",
+      "options": [
+        "restaurant",
+        "resturant",
+        "restarant",
+        "restaraunt"
+      ]
+    },
+    {
+      "word": "beautiful",
+      "hint": "Pleasing to look at",
+      "level": "easy",
+      "options": [
+        "beautiful",
+        "beutiful",
+        "beatiful",
+        "beautifull"
+      ]
+    },
+    {
+      "word": "calendar",
+      "hint": "A chart showing days and months",
+      "level": "medium",
+      "options": [
+        "calendar",
+        "calender",
+        "calandar",
+        "callendar"
+      ]
+    },
+    {
+      "word": "vacuum",
+      "hint": "A space entirely devoid of matter",
+      "level": "hard",
+      "options": [
+        "vacuum",
+        "vaccum",
+        "vacume",
+        "vaccuum"
+      ]
+    },
+    {
+      "word": "maintenance",
+      "hint": "The process of keeping something in good condition",
+      "level": "hard",
+      "options": [
+        "maintenance",
+        "maintainance",
+        "maintenence",
+        "maintnance"
+      ]
+    },
+    {
+      "word": "privilege",
+      "hint": "A special right or advantage",
+      "level": "hard",
+      "options": [
+        "privilege",
+        "privelege",
+        "priviledge",
+        "previlege"
+      ]
+    },
+    {
+      "word": "questionnaire",
+      "hint": "A set of printed questions",
+      "level": "hard",
+      "options": [
+        "questionnaire",
+        "questionaire",
+        "questionnair",
+        "questionere"
+      ]
+    },
+    {
+      "word": "tomorrow",
+      "hint": "The day after today",
+      "level": "easy",
+      "options": [
+        "tomorrow",
+        "tommorow",
+        "tomorow",
+        "tommorrow"
+      ]
+    },
+    {
+      "word": "until",
+      "hint": "Up to the point when",
+      "level": "easy",
+      "options": [
+        "until",
+        "untill",
+        "untile",
+        "intill"
+      ]
+    },
+    {
+      "word": "occasion",
+      "hint": "A particular time or event",
+      "level": "medium",
+      "options": [
+        "occasion",
+        "ocassion",
+        "occassion",
+        "ocasion"
+      ]
+    },
+    {
+      "word": "immediately",
+      "hint": "At once, without delay",
+      "level": "medium",
+      "options": [
+        "immediately",
+        "imediately",
+        "immediatly",
+        "imediatly"
+      ]
+    },
+    {
+      "word": "recommend",
+      "hint": "To suggest as good or suitable",
+      "level": "medium",
+      "options": [
+        "recommend",
+        "recomend",
+        "reccomend",
+        "recommand"
+      ]
+    },
+    {
+      "word": "committee",
+      "hint": "A group appointed for a task",
+      "level": "hard",
+      "options": [
+        "committee",
+        "commitee",
+        "comittee",
+        "committe"
+      ]
+    },
+    {
+      "word": "definite",
+      "hint": "Clearly stated or decided",
+      "level": "medium",
+      "options": [
+        "definite",
+        "definit",
+        "definate",
+        "defenite"
+      ]
+    },
+    {
+      "word": "existence",
+      "hint": "The state of being real",
+      "level": "medium",
+      "options": [
+        "existence",
+        "existance",
+        "existince",
+        "exsistence"
+      ]
+    },
+    {
+      "word": "grateful",
+      "hint": "Feeling thankful",
+      "level": "easy",
+      "options": [
+        "grateful",
+        "gratefull",
+        "greatful",
+        "gratful"
+      ]
+    },
+    {
+      "word": "harass",
+      "hint": "To subject to aggressive pressure",
+      "level": "hard",
+      "options": [
+        "harass",
+        "harrass",
+        "harras",
+        "harresss"
+      ]
+    },
+    {
+      "word": "independent",
+      "hint": "Free from outside control",
+      "level": "medium",
+      "options": [
+        "independent",
+        "independant",
+        "indipendent",
+        "independint"
+      ]
+    },
+    {
+      "word": "jewelry",
+      "hint": "Ornaments worn for decoration",
+      "level": "medium",
+      "options": [
+        "jewelry",
+        "jewellery",
+        "jewlery",
+        "jewelery"
+      ]
+    },
+    {
+      "word": "knowledge",
+      "hint": "Facts, information, and skills",
+      "level": "medium",
+      "options": [
+        "knowledge",
+        "knowlege",
+        "knowledg",
+        "knowledege"
+      ]
+    },
+    {
+      "word": "license",
+      "hint": "An official permit",
+      "level": "medium",
+      "options": [
+        "license",
+        "lisence",
+        "licence",
+        "lisense"
+      ]
+    },
+    {
+      "word": "millennium",
+      "hint": "A period of one thousand years",
+      "level": "hard",
+      "options": [
+        "millennium",
+        "millenium",
+        "milennium",
+        "millennuim"
+      ]
+    },
+    {
+      "word": "noticeable",
+      "hint": "Easy to notice",
+      "level": "medium",
+      "options": [
+        "noticeable",
+        "noticable",
+        "noticeible",
+        "notisable"
+      ]
+    },
+    {
+      "word": "occasionally",
+      "hint": "Now and then",
+      "level": "hard",
+      "options": [
+        "occasionally",
+        "occasionaly",
+        "ocasionally",
+        "occassionally"
+      ]
+    },
+    {
+      "word": "possession",
+      "hint": "The state of owning something",
+      "level": "medium",
+      "options": [
+        "possession",
+        "posession",
+        "possesion",
+        "possesssion"
+      ]
+    },
+    {
+      "word": "receive",
+      "hint": "To be given or handed something",
+      "level": "easy",
+      "options": [
+        "receive",
+        "recieve",
+        "receve",
+        "receeve"
+      ]
+    },
+    {
+      "word": "schedule",
+      "hint": "A plan for carrying out a process",
+      "level": "medium",
+      "options": [
+        "schedule",
+        "shedule",
+        "schedual",
+        "sceduele"
+      ]
+    },
+    {
+      "word": "successful",
+      "hint": "Having achieved a desired aim",
+      "level": "easy",
+      "options": [
+        "successful",
+        "succesful",
+        "sucessful",
+        "succesfull"
+      ]
+    },
+    {
+      "word": "twelfth",
+      "hint": "The ordinal number for twelve",
+      "level": "hard",
+      "options": [
+        "twelfth",
+        "twelth",
+        "twelfeth",
+        "twelvth"
+      ]
+    },
+    {
+      "word": "unforeseen",
+      "hint": "Not anticipated",
+      "level": "hard",
+      "options": [
+        "unforeseen",
+        "unforseen",
+        "unforseeen",
+        "unforceen"
+      ]
+    },
+    {
+      "word": "vegetable",
+      "hint": "A plant grown for food",
+      "level": "easy",
+      "options": [
+        "vegetable",
+        "vegtable",
+        "vegatable",
+        "vegetible"
+      ]
+    },
+    {
+      "word": "weird",
+      "hint": "Strange or unusual",
+      "level": "easy",
+      "options": [
+        "weird",
+        "wierd",
+        "weerd",
+        "weid"
+      ]
+    },
+    {
+      "word": "yacht",
+      "hint": "A medium-sized sailing boat",
+      "level": "hard",
+      "options": [
+        "yacht",
+        "yaht",
+        "yott",
+        "yacth"
+      ]
+    },
+    {
+      "word": "sincerely",
+      "hint": "In a genuine, heartfelt way",
+      "level": "medium",
+      "options": [
+        "sincerely",
+        "sincerly",
+        "sincerley",
+        "sinserely"
+      ]
+    },
+    {
+      "word": "Expunged",
+      "hint": "Completely removed",
+      "level": "medium",
+      "options": [
+        "Expunged",
+        "Expungod",
+        "Expnuged",
+        "Expungedd"
+      ]
+    },
+    {
+      "word": "Nullity",
+      "hint": "Something with no legal value",
+      "level": "medium",
+      "options": [
+        "Nullity",
+        "Nulity",
+        "Nulliy",
+        "Nillity"
+      ]
+    },
+    {
+      "word": "Dehors",
+      "hint": "Outside or beyond",
+      "level": "easy",
+      "options": [
+        "Dehors",
+        "Deehors",
+        "Dehirs",
+        "Dehorc"
+      ]
+    },
+    {
+      "word": "Lenient",
+      "hint": "Not strict",
+      "level": "medium",
+      "options": [
+        "Lenient",
+        "Leneint",
+        "Lennient",
+        "Lenuent"
+      ]
+    },
+    {
+      "word": "Deferred",
+      "hint": "Delayed until later",
+      "level": "medium",
+      "options": [
+        "Deferred",
+        "Deferrd",
+        "Deferrred",
+        "Deefrred"
+      ]
+    },
+    {
+      "word": "Stringent",
+      "hint": "Very strict",
+      "level": "medium",
+      "options": [
+        "Stringent",
+        "Stringennt",
+        "Stringnet",
+        "Sringent"
+      ]
+    },
+    {
+      "word": "Equivalence",
+      "hint": "Being equal in value or meaning",
+      "level": "hard",
+      "options": [
+        "Equivalence",
+        "Eqivalence",
+        "Equivaalence",
+        "Equivalecne"
+      ]
+    },
+    {
+      "word": "Garb",
+      "hint": "Clothing or dress",
+      "level": "easy",
+      "options": [
+        "Garb",
+        "Grb",
+        "Garrb",
+        "Girb"
+      ]
+    },
+    {
+      "word": "Redundancy",
+      "hint": "Something unnecessary or repeated",
+      "level": "medium",
+      "options": [
+        "Redundancy",
+        "Redunancy",
+        "Redundansy",
+        "Reduundancy"
+      ]
+    },
+    {
+      "word": "Tenable",
+      "hint": "Able to be defended or accepted",
+      "level": "medium",
+      "options": [
+        "Tenable",
+        "Tanable",
+        "Tenible",
+        "Tenabe"
+      ]
+    },
+    {
+      "word": "Substantive",
+      "hint": "Important and meaningful",
+      "level": "hard",
+      "options": [
+        "Substantive",
+        "Substantivu",
+        "Subsantive",
+        "Subsatntive"
+      ]
+    },
+    {
+      "word": "Colossal",
+      "hint": "Extremely large",
+      "level": "medium",
+      "options": [
+        "Colossal",
+        "Coolossal",
+        "Coossal",
+        "Colocsal"
+      ]
+    },
+    {
+      "word": "Catena",
+      "hint": "A connected series",
+      "level": "easy",
+      "options": [
+        "Catena",
+        "Ctena",
+        "Cotena",
+        "Caatena"
+      ]
+    },
+    {
+      "word": "Spelt",
+      "hint": "Written or spelled",
+      "level": "easy",
+      "options": [
+        "Spelt",
+        "Speltt",
+        "Spalt",
+        "Spetl"
+      ]
+    },
+    {
+      "word": "Impinge",
+      "hint": "To affect or have an impact",
+      "level": "medium",
+      "options": [
+        "Impinge",
+        "Iminge",
+        "Impinnge",
+        "Impunge"
+      ]
+    },
+    {
+      "word": "Reiterating",
+      "hint": "Saying something again",
+      "level": "hard",
+      "options": [
+        "Reiterating",
+        "Reiterrating",
+        "Reiteratng",
+        "Reietrating"
+      ]
+    },
+    {
+      "word": "Non-patentability",
+      "hint": "Cannot legally receive a patent",
+      "level": "hard",
+      "options": [
+        "Non-patentability",
+        "Non-patentaability",
+        "Non-patenability",
+        "Non-potentability"
+      ]
+    },
+    {
+      "word": "Cigarette",
+      "hint": "A small roll of tobacco for smoking",
+      "level": "medium",
+      "options": [
+        "Cigarette",
+        "Cigrette",
+        "Ciagrette",
+        "Cigarutte"
+      ]
+    },
+    {
+      "word": "Cruelty",
+      "hint": "Causing pain or suffering",
+      "level": "medium",
+      "options": [
+        "Cruelty",
+        "sruelty",
+        "Cuelty",
+        "Cruuelty"
+      ]
+    },
+    {
+      "word": "Dissipates",
+      "hint": "Slowly disappears or spreads away",
+      "level": "medium",
+      "options": [
+        "Dissipates",
+        "Dessipates",
+        "Disipates",
+        "Dsisipates"
+      ]
+    },
+    {
+      "word": "Bewildering",
+      "hint": "Very confusing",
+      "level": "hard",
+      "options": [
+        "Bewildering",
+        "Bewilderang",
+        "Bewidering",
+        "Bewiledring"
+      ]
+    },
+    {
+      "word": "Pursuant",
+      "hint": "Following or according to something",
+      "level": "medium",
+      "options": [
+        "Pursuant",
+        "Purcuant",
+        "Purssuant",
+        "Pursuont"
+      ]
+    },
+    {
+      "word": "Sewage",
+      "hint": "Wastewater from homes and buildings",
+      "level": "easy",
+      "options": [
+        "Sewage",
+        "Sewaage",
+        "Seage",
+        "Sewaeg"
+      ]
+    },
+    {
+      "word": "Allotment",
+      "hint": "Something given to someone",
+      "level": "medium",
+      "options": [
+        "Allotment",
+        "Allotmnet",
+        "Allotmentt",
+        "Ollotment"
+      ]
+    },
+    {
+      "word": "Antecedent",
+      "hint": "Something that came before",
+      "level": "medium",
+      "options": [
+        "Antecedent",
+        "Anteceddent",
+        "Antecodent",
+        "Antesedent"
+      ]
+    },
+    {
+      "word": "Rigorous",
+      "hint": "Very careful and strict",
+      "level": "medium",
+      "options": [
+        "Rigorous",
+        "Rigoros",
+        "Rigorus",
+        "Rigoorus"
+      ]
+    },
+    {
+      "word": "Commitment",
+      "hint": "A promise or duty",
+      "level": "medium",
+      "options": [
+        "Commitment",
+        "Commtment",
+        "Commetment",
+        "Commmitment"
+      ]
+    },
+    {
+      "word": "Denude",
+      "hint": "To remove everything from something",
+      "level": "easy",
+      "options": [
+        "Denude",
+        "Dneude",
+        "Deude",
+        "Denuda"
+      ]
+    },
+    {
+      "word": "Colluded",
+      "hint": "Secretly worked together wrongly",
+      "level": "medium",
+      "options": [
+        "Colluded",
+        "solluded",
+        "Colludd",
+        "Cilluded"
+      ]
+    },
+    {
+      "word": "Oblivious",
+      "hint": "Unaware of something",
+      "level": "medium",
+      "options": [
+        "Oblivious",
+        "Olbivious",
+        "Oblvious",
+        "Obliviouc"
+      ]
+    },
+    {
+      "word": "Withdrawal",
+      "hint": "The act of taking something back",
+      "level": "medium",
+      "options": [
+        "Withdrawal",
+        "Withdrwal",
+        "Wihtdrawal",
+        "Withdrawol"
+      ]
+    },
+    {
+      "word": "Circumspection",
+      "hint": "Careful thinking before acting",
+      "level": "hard",
+      "options": [
+        "Circumspection",
+        "Circcumspection",
+        "Circumspecsion",
+        "Crcumspection"
+      ]
+    },
+    {
+      "word": "Expeditiously",
+      "hint": "Quickly and efficiently",
+      "level": "hard",
+      "options": [
+        "Expeditiously",
+        "Expaditiously",
+        "Expeditiusly",
+        "Expeditiuosly"
+      ]
+    },
+    {
+      "word": "Interlocutor",
+      "hint": "A person you are talking with",
+      "level": "hard",
+      "options": [
+        "Interlocutor",
+        "Interlocuttor",
+        "Intelrocutor",
+        "Interlicutor"
+      ]
+    },
+    {
+      "word": "Incumbent",
+      "hint": "A person currently holding a position",
+      "level": "medium",
+      "options": [
+        "Incumbent",
+        "Incument",
+        "Incumbnet",
+        "Inncumbent"
+      ]
+    },
+    {
+      "word": "Indemnify",
+      "hint": "To pay for someone's loss or damage",
+      "level": "medium",
+      "options": [
+        "Indemnify",
+        "Indemnfiy",
+        "Indamnify",
+        "Idemnify"
+      ]
+    },
+    {
+      "word": "Indemnifier",
+      "hint": "A person who pays for a loss",
+      "level": "hard",
+      "options": [
+        "Indemnifier",
+        "Indemnifeir",
+        "Indemnifiar",
+        "Indemnifieer"
+      ]
+    },
+    {
+      "word": "Collusion",
+      "hint": "Secret cooperation for a dishonest purpose",
+      "level": "medium",
+      "options": [
+        "Collusion",
+        "Colulsion",
+        "Collution",
+        "Colluusion"
+      ]
+    },
+    {
+      "word": "Entail",
+      "hint": "To involve or cause something",
+      "level": "easy",
+      "options": [
+        "Entail",
+        "Entaill",
+        "Ental",
+        "Entuil"
+      ]
+    },
+    {
+      "word": "Commensurate",
+      "hint": "Equal or matching in size or degree",
+      "level": "hard",
+      "options": [
+        "Commensurate",
+        "Commencurate",
+        "Comemnsurate",
+        "Commensurrate"
+      ]
+    },
+    {
+      "word": "Stagnant",
+      "hint": "Not moving or developing",
+      "level": "medium",
+      "options": [
+        "Stagnant",
+        "Stagnnant",
+        "ctagnant",
+        "Stagnent"
+      ]
+    },
+    {
+      "word": "Armoury",
+      "hint": "A place where weapons are kept",
+      "level": "medium",
+      "options": [
+        "Armoury",
+        "Ormoury",
+        "Aromury",
+        "Aroury"
+      ]
+    },
+    {
+      "word": "Adumbrated",
+      "hint": "Gave a rough idea of something",
+      "level": "medium",
+      "options": [
+        "Adumbrated",
+        "Adumrated",
+        "Adumbarted",
+        "Adumbbrated"
+      ]
+    },
+    {
+      "word": "Suffrage",
+      "hint": "The right to vote",
+      "level": "medium",
+      "options": [
+        "Suffrage",
+        "Sufrage",
+        "Suffrrage",
+        "Soffrage"
+      ]
+    },
+    {
+      "word": "Deferment",
+      "hint": "A delay until later",
+      "level": "medium",
+      "options": [
+        "Deferment",
+        "Dfeerment",
+        "Dferment",
+        "Defermunt"
+      ]
+    },
+    {
+      "word": "Expeditious",
+      "hint": "Quick and efficient",
+      "level": "hard",
+      "options": [
+        "Expeditious",
+        "Expeeditious",
+        "Expedotious",
+        "Expditious"
+      ]
+    },
+    {
+      "word": "Credulously",
+      "hint": "Too easily believing something",
+      "level": "hard",
+      "options": [
+        "Credulously",
+        "Cedulously",
+        "Creudlously",
+        "sredulously"
+      ]
+    },
+    {
+      "word": "Intimated",
+      "hint": "Suggested or hinted",
+      "level": "medium",
+      "options": [
+        "Intimated",
+        "Intiamted",
+        "Intimatod",
+        "Intimaed"
+      ]
+    },
+    {
+      "word": "Chastisement",
+      "hint": "Punishment for doing wrong",
+      "level": "hard",
+      "options": [
+        "Chastisement",
+        "Chastiement",
+        "Chastismeent",
+        "Chastisemunt"
+      ]
+    },
+    {
+      "word": "Culpable",
+      "hint": "Deserving blame",
+      "level": "medium",
+      "options": [
+        "Culpable",
+        "Cuplable",
+        "Culpeble",
+        "Cuulpable"
+      ]
+    },
+    {
+      "word": "Homicide",
+      "hint": "Killing of one person by another",
+      "level": "medium",
+      "options": [
+        "Homicide",
+        "Homiciide",
+        "Homicido",
+        "Hmoicide"
+      ]
+    },
+    {
+      "word": "Rifle",
+      "hint": "A long gun",
+      "level": "easy",
+      "options": [
+        "Rifle",
+        "Rile",
+        "Riflee",
+        "Rfile"
+      ]
+    },
+    {
+      "word": "Butt",
+      "hint": "The back end of something",
+      "level": "easy",
+      "options": [
+        "Butt",
+        "Btt",
+        "Buutt",
+        "Bitt"
+      ]
+    },
+    {
+      "word": "Post-mortem",
+      "hint": "Examination after death",
+      "level": "medium",
+      "options": [
+        "Post-mortem",
+        "Post-motem",
+        "Poct-mortem",
+        "Post-omrtem"
+      ]
+    },
+    {
+      "word": "Health-related",
+      "hint": "Connected with health",
+      "level": "hard",
+      "options": [
+        "Health-related",
+        "Health-relatedd",
+        "Halth-related",
+        "Health-ralated"
+      ]
+    },
+    {
+      "word": "Age-old",
+      "hint": "Very old",
+      "level": "easy",
+      "options": [
+        "Age-old",
+        "Age-odl",
+        "Agee-old",
+        "Aga-old"
+      ]
+    },
+    {
+      "word": "Nationwide",
+      "hint": "Across the whole country",
+      "level": "medium",
+      "options": [
+        "Nationwide",
+        "Naitonwide",
+        "Natinwide",
+        "Nasionwide"
+      ]
+    },
+    {
+      "word": "Cater",
+      "hint": "To provide what is needed",
+      "level": "easy",
+      "options": [
+        "Cater",
+        "sater",
+        "Cter",
+        "Caterr"
+      ]
+    },
+    {
+      "word": "Cleanness",
+      "hint": "The state of being clean",
+      "level": "medium",
+      "options": [
+        "Cleanness",
+        "sleanness",
+        "Cleannness",
+        "Cleannes"
+      ]
+    },
+    {
+      "word": "Anniversary",
+      "hint": "A yearly remembrance of an event",
+      "level": "hard",
+      "options": [
+        "Anniversary",
+        "Annivorsary",
+        "Annivesary",
+        "Anniverssary"
+      ]
+    },
+    {
+      "word": "Conciliation",
+      "hint": "Making peace between people",
+      "level": "hard",
+      "options": [
+        "Conciliation",
+        "Cociliation",
+        "Conciliatiion",
+        "Concilaation"
+      ]
+    },
+    {
+      "word": "Conciliatory",
+      "hint": "Intended to make peace",
+      "level": "hard",
+      "options": [
+        "Conciliatory",
+        "Connciliatory",
+        "Canciliatory",
+        "Conciliaotry"
+      ]
+    },
+    {
+      "word": "Malnutrition",
+      "hint": "Poor health from lack of proper food",
+      "level": "hard",
+      "options": [
+        "Malnutrition",
+        "Malnutrtiion",
+        "Malnutrision",
+        "Malnotrition"
+      ]
+    },
+    {
+      "word": "Multifarious",
+      "hint": "Having many different types",
+      "level": "hard",
+      "options": [
+        "Multifarious",
+        "Multifaious",
+        "Multifariouc",
+        "Multiferious"
+      ]
+    },
+    {
+      "word": "Lofty",
+      "hint": "Very high or noble",
+      "level": "easy",
+      "options": [
+        "Lofty",
+        "Loty",
+        "Lufty",
+        "Lotfy"
+      ]
+    },
+    {
+      "word": "Laurels",
+      "hint": "Praise or honours for achievement",
+      "level": "medium",
+      "options": [
+        "Laurels",
+        "Laurelc",
+        "Lauurels",
+        "Luarels"
+      ]
+    },
+    {
+      "word": "Cleanliness",
+      "hint": "The habit of keeping clean",
+      "level": "hard",
+      "options": [
+        "Cleanliness",
+        "Cleaanliness",
+        "Clealiness",
+        "Cleanlinecs"
+      ]
+    },
+    {
+      "word": "Conducive",
+      "hint": "Helping something happen",
+      "level": "medium",
+      "options": [
+        "Conducive",
+        "sonducive",
+        "Cnducive",
+        "Condecive"
+      ]
+    },
+    {
+      "word": "Eroded",
+      "hint": "Gradually worn away",
+      "level": "easy",
+      "options": [
+        "Eroded",
+        "Erooded",
+        "Erdoed",
+        "Ereded"
+      ]
+    },
+    {
+      "word": "Timeframe",
+      "hint": "A period of time",
+      "level": "medium",
+      "options": [
+        "Timeframe",
+        "Timerame",
+        "Tomeframe",
+        "Tmieframe"
+      ]
+    },
+    {
+      "word": "Superseded",
+      "hint": "Replaced by something newer",
+      "level": "medium",
+      "options": [
+        "Superseded",
+        "Supersedde",
+        "cuperseded",
+        "Superrseded"
+      ]
+    },
+    {
+      "word": "Oversee",
+      "hint": "To supervise or manage",
+      "level": "medium",
+      "options": [
+        "Oversee",
+        "Ovarsee",
+        "Ovresee",
+        "Overcee"
+      ]
+    },
+    {
+      "word": "Omnibus",
+      "hint": "Including many things together",
+      "level": "medium",
+      "options": [
+        "Omnibus",
+        "Onibus",
+        "Omnibuus",
+        "Emnibus"
+      ]
+    },
+    {
+      "word": "Proprietary",
+      "hint": "Owned by a person or company",
+      "level": "hard",
+      "options": [
+        "Proprietary",
+        "Propreitary",
+        "Propriatary",
+        "Propiretary"
+      ]
+    },
+    {
+      "word": "Proprietor",
+      "hint": "Owner of a business",
+      "level": "medium",
+      "options": [
+        "Proprietor",
+        "Propietor",
+        "Propreitor",
+        "Prroprietor"
+      ]
+    },
+    {
+      "word": "Pittance",
+      "hint": "A very small amount of money",
+      "level": "medium",
+      "options": [
+        "Pittance",
+        "Ptitance",
+        "Pittnce",
+        "Pittanci"
+      ]
+    },
+    {
+      "word": "Justiciable",
+      "hint": "Able to be decided by a court",
+      "level": "hard",
+      "options": [
+        "Justiciable",
+        "Justiciablo",
+        "Jusitciable",
+        "Justicible"
+      ]
+    },
+    {
+      "word": "Justifiable",
+      "hint": "Able to be reasonably defended",
+      "level": "hard",
+      "options": [
+        "Justifiable",
+        "Juctifiable",
+        "Justifiiable",
+        "Jutifiable"
+      ]
+    },
+    {
+      "word": "Strangulation",
+      "hint": "Stopping someone from breathing",
+      "level": "hard",
+      "options": [
+        "Strangulation",
+        "Stragnulation",
+        "Strangulatin",
+        "ctrangulation"
+      ]
+    },
+    {
+      "word": "Cruelly",
+      "hint": "In a very unkind way",
+      "level": "medium",
+      "options": [
+        "Cruelly",
+        "Crulely",
+        "Crueelly",
+        "Crelly"
+      ]
+    },
+    {
+      "word": "Helplessness",
+      "hint": "Feeling unable to do anything",
+      "level": "hard",
+      "options": [
+        "Helplessness",
+        "Helpllessness",
+        "Helplesness",
+        "Helplessnes"
+      ]
+    },
+    {
+      "word": "Circumstantial",
+      "hint": "Based on surrounding facts",
+      "level": "hard",
+      "options": [
+        "Circumstantial",
+        "Circuumstantial",
+        "sircumstantial",
+        "Circumstanteal"
+      ]
+    },
+    {
+      "word": "Steer",
+      "hint": "To guide or control",
+      "level": "easy",
+      "options": [
+        "Steer",
+        "Stear",
+        "Stteer",
+        "Ster"
+      ]
+    },
+    {
+      "word": "Expedient",
+      "hint": "Convenient or useful",
+      "level": "medium",
+      "options": [
+        "Expedient",
+        "Expeduent",
+        "Expediennt",
+        "Expedeint"
+      ]
+    },
+    {
+      "word": "Undergraduate",
+      "hint": "A student studying for a first degree",
+      "level": "hard",
+      "options": [
+        "Undergraduate",
+        "Undergraduite",
+        "Undergrduate",
+        "Unedrgraduate"
+      ]
+    },
+    {
+      "word": "Prevalent",
+      "hint": "Common or widespread",
+      "level": "medium",
+      "options": [
+        "Prevalent",
+        "Preevalent",
+        "Prvalent",
+        "Prevlaent"
+      ]
+    },
+    {
+      "word": "Eschewed",
+      "hint": "Deliberately avoided",
+      "level": "medium",
+      "options": [
+        "Eschewed",
+        "Escheed",
+        "Eschuwed",
+        "Ecchewed"
+      ]
+    },
+    {
+      "word": "Abstention",
+      "hint": "Choosing not to vote or act",
+      "level": "medium",
+      "options": [
+        "Abstention",
+        "Abbstention",
+        "Absetntion",
+        "Absention"
+      ]
+    },
+    {
+      "word": "Palette",
+      "hint": "A range of colours",
+      "level": "medium",
+      "options": [
+        "Palette",
+        "Paalette",
+        "Paltte",
+        "Paltete"
+      ]
+    },
+    {
+      "word": "Slaughtered",
+      "hint": "Killed in large numbers",
+      "level": "hard",
+      "options": [
+        "Slaughtered",
+        "Slauhtered",
+        "Sllaughtered",
+        "claughtered"
+      ]
+    },
+    {
+      "word": "Inhibition",
+      "hint": "Something that stops or limits you",
+      "level": "medium",
+      "options": [
+        "Inhibition",
+        "Inhibitin",
+        "Enhibition",
+        "Inhibiition"
+      ]
+    },
+    {
+      "word": "Governor-in-Council",
+      "hint": "Governor acting with the council",
+      "level": "hard",
+      "options": [
+        "Governor-in-Council",
+        "Governor-in-souncil",
+        "Goovernor-in-Council",
+        "Governor-in-Cuncil"
+      ]
+    },
+    {
+      "word": "Pay scale",
+      "hint": "A system showing salary levels",
+      "level": "medium",
+      "options": [
+        "Pay scale",
+        "Pay sclae",
+        "Py scale",
+        "Pay scaale"
+      ]
+    },
+    {
+      "word": "Call off",
+      "hint": "To cancel",
+      "level": "medium",
+      "options": [
+        "Call off",
+        "Caall off",
+        "Cill off",
+        "sall off"
+      ]
+    },
+    {
+      "word": "Congenial",
+      "hint": "Pleasant and friendly",
+      "level": "medium",
+      "options": [
+        "Congenial",
+        "songenial",
+        "Conenial",
+        "Congeniall"
+      ]
+    },
+    {
+      "word": "Agitating",
+      "hint": "Making someone worried or upset",
+      "level": "medium",
+      "options": [
+        "Agitating",
+        "Agitatnig",
+        "Agittating",
+        "Agitting"
+      ]
+    },
+    {
+      "word": "Duress",
+      "hint": "Being forced through threats or pressure",
+      "level": "easy",
+      "options": [
+        "Duress",
+        "Durress",
+        "Duess",
+        "Doress"
+      ]
+    },
+    {
+      "word": "Pravasi Bharatiya Panel",
+      "hint": "A committee related to Indians abroad",
+      "level": "hard",
+      "options": [
+        "Pravasi Bharatiya Panel",
+        "Pravaso Bharatiya Panel",
+        "Pravasi Bharatiiya Panel",
+        "Pravasi Bharatya Panel"
+      ]
+    },
+    {
+      "word": "Diaspora",
+      "hint": "People living outside their original country",
+      "level": "medium",
+      "options": [
+        "Diaspora",
+        "Diacpora",
+        "Diapora",
+        "Diiaspora"
+      ]
+    },
+    {
+      "word": "Dysfunctional",
+      "hint": "Not working properly",
+      "level": "hard",
+      "options": [
+        "Dysfunctional",
+        "Dysfunctionul",
+        "Dysfunstional",
+        "Dysffunctional"
+      ]
+    },
+    {
+      "word": "Dissimilar",
+      "hint": "Different from each other",
+      "level": "medium",
+      "options": [
+        "Dissimilar",
+        "Dicsimilar",
+        "Dissimillar",
+        "Dissimiler"
+      ]
+    },
+    {
+      "word": "Bounden",
+      "hint": "Having a strong duty",
+      "level": "medium",
+      "options": [
+        "Bounden",
+        "Bonden",
+        "Boudnen",
+        "Beunden"
+      ]
+    },
+    {
+      "word": "Gynaecology",
+      "hint": "Study of women's reproductive health",
+      "level": "hard",
+      "options": [
+        "Gynaecology",
+        "Gynaecolgoy",
+        "Gynaesology",
+        "Gynecology"
+      ]
+    },
+    {
+      "word": "Obstetrics",
+      "hint": "Medical care during pregnancy and childbirth",
+      "level": "medium",
+      "options": [
+        "Obstetrics",
+        "Obstetriss",
+        "Obstetriccs",
+        "Obstetrecs"
+      ]
+    },
+    {
+      "word": "Vendetta",
+      "hint": "A long personal fight or revenge",
+      "level": "medium",
+      "options": [
+        "Vendetta",
+        "Vondetta",
+        "Venetta",
+        "Veendetta"
+      ]
+    },
+    {
+      "word": "Substratum",
+      "hint": "The basic foundation",
+      "level": "medium",
+      "options": [
+        "Substratum",
+        "Susbtratum",
+        "Substrtum",
+        "Subsstratum"
+      ]
+    },
+    {
+      "word": "Obligated",
+      "hint": "Required to do something",
+      "level": "medium",
+      "options": [
+        "Obligated",
+        "Oblogated",
+        "Obligatedd",
+        "Obliagted"
+      ]
+    },
+    {
+      "word": "Enunciated",
+      "hint": "Clearly stated",
+      "level": "medium",
+      "options": [
+        "Enunciated",
+        "Enuncaited",
+        "Ennunciated",
+        "Enunsiated"
+      ]
+    },
+    {
+      "word": "Decipher",
+      "hint": "To understand something difficult",
+      "level": "medium",
+      "options": [
+        "Decipher",
+        "Deciphur",
+        "Deciphher",
+        "Decihper"
+      ]
+    },
+    {
+      "word": "Overshadow",
+      "hint": "To make something seem less important",
+      "level": "medium",
+      "options": [
+        "Overshadow",
+        "Overshaadow",
+        "Oversahdow",
+        "Overshadaw"
+      ]
+    },
+    {
+      "word": "High-handedness",
+      "hint": "Using power in an unfair way",
+      "level": "hard",
+      "options": [
+        "High-handedness",
+        "High-handednecs",
+        "High-hanndedness",
+        "High-hadnedness"
+      ]
+    },
+    {
+      "word": "Thwart",
+      "hint": "To stop something from happening",
+      "level": "easy",
+      "options": [
+        "Thwart",
+        "Thwurt",
+        "Thwatr",
+        "Thart"
+      ]
+    },
+    {
+      "word": "Citizenry",
+      "hint": "All the citizens of a place",
+      "level": "medium",
+      "options": [
+        "Citizenry",
+        "Citozenry",
+        "Citizery",
+        "Citizenryy"
+      ]
+    },
+    {
+      "word": "Disillusionment",
+      "hint": "Loss of hope or belief",
+      "level": "hard",
+      "options": [
+        "Disillusionment",
+        "Desillusionment",
+        "Dicillusionment",
+        "Disillsionment"
+      ]
+    },
+    {
+      "word": "Enforcers",
+      "hint": "People who make sure rules are followed",
+      "level": "medium",
+      "options": [
+        "Enforcers",
+        "Enforccers",
+        "Enorcers",
+        "Enfrocers"
+      ]
+    },
+    {
+      "word": "Hierarchy",
+      "hint": "A system of levels or ranks",
+      "level": "medium",
+      "options": [
+        "Hierarchy",
+        "Heirarchy",
+        "Hierarcy",
+        "Hierarshy"
+      ]
+    },
+    {
+      "word": "Overhaul",
+      "hint": "A complete improvement or repair",
+      "level": "medium",
+      "options": [
+        "Overhaul",
+        "Overhail",
+        "Overahul",
+        "Overaul"
+      ]
+    },
+    {
+      "word": "Aberrant",
+      "hint": "Different from what is normal",
+      "level": "medium",
+      "options": [
+        "Aberrant",
+        "Aberrrant",
+        "Aberrnt",
+        "Abrerant"
+      ]
+    },
+    {
+      "word": "Underage",
+      "hint": "Too young legally",
+      "level": "medium",
+      "options": [
+        "Underage",
+        "Uderage",
+        "Underrage",
+        "Undirage"
+      ]
+    },
+    {
+      "word": "Hardened",
+      "hint": "Made tough or less sensitive",
+      "level": "medium",
+      "options": [
+        "Hardened",
+        "Hrdened",
+        "Hardenud",
+        "Hardeneed"
+      ]
+    },
+    {
+      "word": "Weaponized",
+      "hint": "Turned into something used as a weapon",
+      "level": "medium",
+      "options": [
+        "Weaponized",
+        "Weaponzied",
+        "Weeaponized",
+        "Weaonized"
+      ]
+    },
+    {
+      "word": "Motorcyclists",
+      "hint": "People who ride motorcycles",
+      "level": "hard",
+      "options": [
+        "Motorcyclists",
+        "Mutorcyclists",
+        "Motorcyclicts",
+        "Motorcyclissts"
+      ]
+    },
+    {
+      "word": "Harmful",
+      "hint": "Causing damage",
+      "level": "medium",
+      "options": [
+        "Harmful",
+        "Hramful",
+        "Harrmful",
+        "Hirmful"
+      ]
+    },
+    {
+      "word": "Impounding",
+      "hint": "Taking and keeping something officially",
+      "level": "medium",
+      "options": [
+        "Impounding",
+        "Impoundding",
+        "Impoudning",
+        "Imounding"
+      ]
+    },
+    {
+      "word": "Excesses",
+      "hint": "Amounts that are too much",
+      "level": "medium",
+      "options": [
+        "Excesses",
+        "Exceses",
+        "Exccesses",
+        "Oxcesses"
+      ]
+    },
+    {
+      "word": "Bribes",
+      "hint": "Gifts or money used to influence wrongly",
+      "level": "easy",
+      "options": [
+        "Bribes",
+        "Briebs",
+        "Bribess",
+        "Bribas"
+      ]
+    },
+    {
+      "word": "Tryst",
+      "hint": "A secret meeting",
+      "level": "easy",
+      "options": [
+        "Tryst",
+        "Trsyt",
+        "Tryt",
+        "Tryct"
+      ]
+    },
+    {
+      "word": "Pre-emptive",
+      "hint": "Done before something happens",
+      "level": "medium",
+      "options": [
+        "Pre-emptive",
+        "Prre-emptive",
+        "Pre-emptve",
+        "Pre-emptvie"
+      ]
+    },
+    {
+      "word": "Prominence",
+      "hint": "Importance or being well-known",
+      "level": "medium",
+      "options": [
+        "Prominence",
+        "Promiinence",
+        "Prominense",
+        "Proinence"
+      ]
+    },
+    {
+      "word": "Deteriorate",
+      "hint": "To become worse",
+      "level": "hard",
+      "options": [
+        "Deteriorate",
+        "Detteriorate",
+        "Detreiorate",
+        "Deteriorte"
+      ]
+    },
+    {
+      "word": "Legalistic",
+      "hint": "Following laws very strictly",
+      "level": "medium",
+      "options": [
+        "Legalistic",
+        "Legalisitc",
+        "Legalisticc",
+        "Legalictic"
+      ]
+    },
+    {
+      "word": "Ratcheting",
+      "hint": "Increasing step by step",
+      "level": "medium",
+      "options": [
+        "Ratcheting",
+        "Ratchetang",
+        "Ratceting",
+        "Ratsheting"
+      ]
+    },
+    {
+      "word": "Halting",
+      "hint": "Stopping or pausing",
+      "level": "medium",
+      "options": [
+        "Halting",
+        "Hlting",
+        "Haltign",
+        "Haltiing"
+      ]
+    },
+    {
+      "word": "Halt",
+      "hint": "To stop",
+      "level": "easy",
+      "options": [
+        "Halt",
+        "Hallt",
+        "Hat",
+        "Hilt"
+      ]
+    },
+    {
+      "word": "Differentiates",
+      "hint": "Shows how things are different",
+      "level": "hard",
+      "options": [
+        "Differentiates",
+        "Differentiatees",
+        "Diffirentiates",
+        "Differentaites"
+      ]
+    },
+    {
+      "word": "Km/h",
+      "hint": "Kilometres per hour",
+      "level": "easy",
+      "options": [
+        "Km/h",
+        "Kmm/h",
+        "K/h",
+        "Km/hh"
+      ]
+    },
+    {
+      "word": "Nadir",
+      "hint": "The lowest point",
+      "level": "easy",
+      "options": [
+        "Nadir",
+        "Nadr",
+        "Nadiir",
+        "Ndair"
+      ]
+    },
+    {
+      "word": "Shompen",
+      "hint": "An Indigenous people of the Nicobar Islands",
+      "level": "medium",
+      "options": [
+        "Shompen",
+        "Sohmpen",
+        "Shimpen",
+        "chompen"
+      ]
+    },
+    {
+      "word": "Bay Islanders",
+      "hint": "People living in the Andaman and Nicobar Islands",
+      "level": "hard",
+      "options": [
+        "Bay Islanders",
+        "Bay Islanedrs",
+        "Bay Ilanders",
+        "Bay Oslanders"
+      ]
+    },
+    {
+      "word": "Earmarked",
+      "hint": "Reserved for a particular purpose",
+      "level": "medium",
+      "options": [
+        "Earmarked",
+        "Earmarkedd",
+        "Eararked",
+        "Earmraked"
+      ]
+    },
+    {
+      "word": "Dictum",
+      "hint": "A statement expressing a rule or principle",
+      "level": "easy",
+      "options": [
+        "Dictum",
+        "Dicum",
+        "Doctum",
+        "Distum"
+      ]
+    },
+    {
+      "word": "Indices",
+      "hint": "Lists or signs showing something",
+      "level": "medium",
+      "options": [
+        "Indices",
+        "Indicec",
+        "Indics",
+        "Indicess"
+      ]
+    },
+    {
+      "word": "Sentinelese",
+      "hint": "Indigenous people of North Sentinel Island",
+      "level": "hard",
+      "options": [
+        "Sentinelese",
+        "Seninelese",
+        "Sentenelese",
+        "centinelese"
+      ]
+    },
+    {
+      "word": "Exhorts",
+      "hint": "Strongly encourages",
+      "level": "medium",
+      "options": [
+        "Exhorts",
+        "Exxhorts",
+        "Exohrts",
+        "Oxhorts"
+      ]
+    },
+    {
+      "word": "Ministration",
+      "hint": "Providing help or service",
+      "level": "hard",
+      "options": [
+        "Ministration",
+        "Ministretion",
+        "Ministraiton",
+        "Ministraation"
+      ]
+    },
+    {
+      "word": "Paternalistic",
+      "hint": "Making decisions for others like a parent",
+      "level": "hard",
+      "options": [
+        "Paternalistic",
+        "Patrnalistic",
+        "Patenralistic",
+        "Paternalastic"
+      ]
+    },
+    {
+      "word": "Patronizing",
+      "hint": "Treating someone as less intelligent",
+      "level": "hard",
+      "options": [
+        "Patronizing",
+        "Potronizing",
+        "Patronizng",
+        "Patronziing"
+      ]
+    },
+    {
+      "word": "Panchsheel",
+      "hint": "Five principles of peaceful coexistence",
+      "level": "medium",
+      "options": [
+        "Panchsheel",
+        "Panshsheel",
+        "Pnachsheel",
+        "Paanchsheel"
+      ]
+    },
+    {
+      "word": "Incidentally",
+      "hint": "By the way",
+      "level": "hard",
+      "options": [
+        "Incidentally",
+        "Insidentally",
+        "Inciduntally",
+        "Incidetnally"
+      ]
+    },
+    {
+      "word": "Turnaround",
+      "hint": "A major change for the better",
+      "level": "medium",
+      "options": [
+        "Turnaround",
+        "Turnaronud",
+        "Turniround",
+        "Turrnaround"
+      ]
+    },
+    {
+      "word": "Rankles",
+      "hint": "Causes continuing anger or annoyance",
+      "level": "medium",
+      "options": [
+        "Rankles",
+        "Ranles",
+        "Raankles",
+        "Ranklec"
+      ]
+    },
+    {
+      "word": "Assiduously",
+      "hint": "With great care and effort",
+      "level": "hard",
+      "options": [
+        "Assiduously",
+        "Assuduously",
+        "Assiduouslyy",
+        "Assiduoulsy"
+      ]
+    },
+    {
+      "word": "Overemphasis",
+      "hint": "Giving too much importance",
+      "level": "hard",
+      "options": [
+        "Overemphasis",
+        "Overemfasis",
+        "Overemphsais",
+        "Overemphasiis"
+      ]
+    },
+    {
+      "word": "Vice-chairman",
+      "hint": "Person who assists the chairman",
+      "level": "hard",
+      "options": [
+        "Vice-chairman",
+        "Vice-cahirman",
+        "Vice-chairmaan",
+        "Vice-chaarman"
+      ]
+    },
+    {
+      "word": "Anguish",
+      "hint": "Severe pain or sadness",
+      "level": "medium",
+      "options": [
+        "Anguish",
+        "Angaish",
+        "Aguish",
+        "Anguich"
+      ]
+    },
+    {
+      "word": "Malthusian",
+      "hint": "Related to population and limited resources",
+      "level": "medium",
+      "options": [
+        "Malthusian",
+        "Milthusian",
+        "Malthhusian",
+        "Malthuisan"
+      ]
+    },
+    {
+      "word": "Overaged",
+      "hint": "Older than the allowed age",
+      "level": "medium",
+      "options": [
+        "Overaged",
+        "Overagud",
+        "Oveaged",
+        "Overaegd"
+      ]
+    },
+    {
+      "word": "Red-tapism",
+      "hint": "Too many official rules and procedures",
+      "level": "medium",
+      "options": [
+        "Red-tapism",
+        "Red-tapsim",
+        "Red-taapism",
+        "Red-tapicm"
+      ]
+    },
+    {
+      "word": "Cronyism",
+      "hint": "Giving unfair benefits to friends",
+      "level": "medium",
+      "options": [
+        "Cronyism",
+        "Cronyissm",
+        "Crunyism",
+        "Croniysm"
+      ]
+    },
+    {
+      "word": "Bureaucratic",
+      "hint": "Related to complicated official procedures",
+      "level": "hard",
+      "options": [
+        "Bureaucratic",
+        "Bureaicratic",
+        "Bureausratic",
+        "Bueaucratic"
+      ]
+    },
+    {
+      "word": "Valedictory",
+      "hint": "Related to a farewell",
+      "level": "hard",
+      "options": [
+        "Valedictory",
+        "Valedistory",
+        "Valeidctory",
+        "Vaaledictory"
+      ]
+    },
+    {
+      "word": "Ill-afford",
+      "hint": "Be unable to afford",
+      "level": "medium",
+      "options": [
+        "Ill-afford",
+        "Il-afford",
+        "Ill-ifford",
+        "Illl-afford"
+      ]
+    },
+    {
+      "word": "Aggravating",
+      "hint": "Making something worse",
+      "level": "hard",
+      "options": [
+        "Aggravating",
+        "Aggravtaing",
+        "Agravating",
+        "Aggravoting"
+      ]
+    },
+    {
+      "word": "Preordained",
+      "hint": "Decided in advance",
+      "level": "hard",
+      "options": [
+        "Preordained",
+        "Preordaened",
+        "Preodained",
+        "Preordaiined"
+      ]
+    },
+    {
+      "word": "Conformity",
+      "hint": "Following accepted rules or behaviour",
+      "level": "medium",
+      "options": [
+        "Conformity",
+        "sonformity",
+        "Cnformity",
+        "Confarmity"
+      ]
+    },
+    {
+      "word": "Propriety",
+      "hint": "Proper and acceptable behaviour",
+      "level": "medium",
+      "options": [
+        "Propriety",
+        "Proprietty",
+        "Propriity",
+        "Prorpiety"
+      ]
+    },
+    {
+      "word": "Erudition",
+      "hint": "Great knowledge",
+      "level": "medium",
+      "options": [
+        "Erudition",
+        "Eruditioon",
+        "Eruidtion",
+        "Orudition"
+      ]
+    },
+    {
+      "word": "Identifiable",
+      "hint": "Able to be recognized",
+      "level": "hard",
+      "options": [
+        "Identifiable",
+        "Identiifiable",
+        "Idnetifiable",
+        "Identifuable"
+      ]
+    },
+    {
+      "word": "Malicious",
+      "hint": "Intending to cause harm",
+      "level": "medium",
+      "options": [
+        "Malicious",
+        "Maliciouc",
+        "Malicaous",
+        "Mailcious"
+      ]
+    },
+    {
+      "word": "Capricious",
+      "hint": "Changing suddenly and unpredictably",
+      "level": "medium",
+      "options": [
+        "Capricious",
+        "Capriious",
+        "Capriicious",
+        "Cupricious"
+      ]
+    },
+    {
+      "word": "Unfettered",
+      "hint": "Completely free from restrictions",
+      "level": "medium",
+      "options": [
+        "Unfettered",
+        "Unfttered",
+        "Unfattered",
+        "Unfetteredd"
+      ]
+    },
+    {
+      "word": "Arbitrary",
+      "hint": "Based on personal choice without reason",
+      "level": "medium",
+      "options": [
+        "Arbitrary",
+        "Aritrary",
+        "Arbittrary",
+        "Urbitrary"
+      ]
+    },
+    {
+      "word": "Arbitrarily",
+      "hint": "Without a clear reason or rule",
+      "level": "hard",
+      "options": [
+        "Arbitrarily",
+        "Arbiitrarily",
+        "Arbirarily",
+        "Arbitraruly"
+      ]
+    },
+    {
+      "word": "Overriding",
+      "hint": "More important than something else",
+      "level": "medium",
+      "options": [
+        "Overriding",
+        "Overirding",
+        "Overreding",
+        "Ovrriding"
+      ]
+    },
+    {
+      "word": "Detriment",
+      "hint": "Harm or damage",
+      "level": "medium",
+      "options": [
+        "Detriment",
+        "Detrament",
+        "Detrriment",
+        "Deriment"
+      ]
+    },
+    {
+      "word": "Negotiate",
+      "hint": "To discuss to reach an agreement",
+      "level": "medium",
+      "options": [
+        "Negotiate",
+        "Negotitae",
+        "Negtiate",
+        "Negotuate"
+      ]
+    },
+    {
+      "word": "Conferred",
+      "hint": "Gave or officially granted",
+      "level": "medium",
+      "options": [
+        "Conferred",
+        "Conerred",
+        "Cofnerred",
+        "Confeerred"
+      ]
+    },
+    {
+      "word": "Offered",
+      "hint": "Presented or proposed",
+      "level": "medium",
+      "options": [
+        "Offered",
+        "Offared",
+        "Offerde",
+        "Offfered"
+      ]
+    },
+    {
+      "word": "Abetting",
+      "hint": "Helping someone do something wrong",
+      "level": "medium",
+      "options": [
+        "Abetting",
+        "Aebtting",
+        "Abatting",
+        "Aetting"
+      ]
+    },
+    {
+      "word": "Loitering",
+      "hint": "Staying somewhere without a purpose",
+      "level": "medium",
+      "options": [
+        "Loitering",
+        "Luitering",
+        "Loietring",
+        "Litering"
+      ]
+    },
+    {
+      "word": "Lis",
+      "hint": "A legal dispute or case",
+      "level": "easy",
+      "options": [
+        "Lis",
+        "Ls",
+        "Lsi",
+        "Lic"
+      ]
+    },
+    {
+      "word": "Rebuttable",
+      "hint": "Able to be proved wrong",
+      "level": "medium",
+      "options": [
+        "Rebuttable",
+        "Rebuttble",
+        "Rabuttable",
+        "Rebuttible"
+      ]
+    },
+    {
+      "word": "Pseudonymous",
+      "hint": "Using a false name",
+      "level": "hard",
+      "options": [
+        "Pseudonymous",
+        "Pseudonymosu",
+        "Psedonymous",
+        "Pseadonymous"
+      ]
+    },
+    {
+      "word": "Headwinds",
+      "hint": "Problems that slow progress",
+      "level": "medium",
+      "options": [
+        "Headwinds",
+        "Headwins",
+        "Hiadwinds",
+        "Headwindc"
+      ]
+    },
+    {
+      "word": "Strictly",
+      "hint": "In a very exact or firm way",
+      "level": "medium",
+      "options": [
+        "Strictly",
+        "ctrictly",
+        "Stricly",
+        "Strectly"
+      ]
+    },
+    {
+      "word": "Abetment",
+      "hint": "Helping someone do something wrong",
+      "level": "medium",
+      "options": [
+        "Abetment",
+        "Ibetment",
+        "Abettment",
+        "Abement"
+      ]
+    },
+    {
+      "word": "Tranquillity",
+      "hint": "Peace and calm",
+      "level": "hard",
+      "options": [
+        "Tranquillity",
+        "Tranquility",
+        "Tranquallity",
+        "Traanquillity"
+      ]
+    },
+    {
+      "word": "Tanneries",
+      "hint": "Places where hides are made into leather",
+      "level": "medium",
+      "options": [
+        "Tanneries",
+        "Tanniries",
+        "Tannereis",
+        "Tanneeries"
+      ]
+    },
+    {
+      "word": "Tannery",
+      "hint": "A place where hides are made into leather",
+      "level": "medium",
+      "options": [
+        "Tannery",
+        "Tanney",
+        "Tunnery",
+        "Tanneyr"
+      ]
+    },
+    {
+      "word": "Dependencies",
+      "hint": "Things that depend on something else",
+      "level": "hard",
+      "options": [
+        "Dependencies",
+        "Depenencies",
+        "Dependenciees",
+        "Dependecnies"
+      ]
+    },
+    {
+      "word": "Tanning",
+      "hint": "Making leather from animal hides",
+      "level": "medium",
+      "options": [
+        "Tanning",
+        "Tanningg",
+        "Tnning",
+        "Tannign"
+      ]
+    },
+    {
+      "word": "Pre-tanning",
+      "hint": "Process done before tanning",
+      "level": "medium",
+      "options": [
+        "Pre-tanning",
+        "Pre-tenning",
+        "Pre-taanning",
+        "Pre-atnning"
+      ]
+    },
+    {
+      "word": "Post-tanning",
+      "hint": "Process done after tanning",
+      "level": "hard",
+      "options": [
+        "Post-tanning",
+        "Pst-tanning",
+        "Post-tnaning",
+        "Past-tanning"
+      ]
+    },
+    {
+      "word": "Heartfelt",
+      "hint": "Deeply sincere",
+      "level": "medium",
+      "options": [
+        "Heartfelt",
+        "Hearrtfelt",
+        "Hearftelt",
+        "Heartfalt"
+      ]
+    },
+    {
+      "word": "Slowdown",
+      "hint": "A decrease in speed or activity",
+      "level": "medium",
+      "options": [
+        "Slowdown",
+        "Sllowdown",
+        "Slowdewn",
+        "clowdown"
+      ]
+    },
+    {
+      "word": "Endure",
+      "hint": "To suffer or tolerate something",
+      "level": "easy",
+      "options": [
+        "Endure",
+        "Endere",
+        "Endue",
+        "Enduer"
+      ]
+    },
+    {
+      "word": "Liveable",
+      "hint": "Suitable or comfortable to live in",
+      "level": "medium",
+      "options": [
+        "Liveable",
+        "Liveale",
+        "Liveabel",
+        "Liveible"
+      ]
+    },
+    {
+      "word": "Concerted",
+      "hint": "Planned and done together",
+      "level": "medium",
+      "options": [
+        "Concerted",
+        "Concorted",
+        "Conncerted",
+        "Conceted"
+      ]
+    },
+    {
+      "word": "Axiomatically",
+      "hint": "In a way accepted as obviously true",
+      "level": "hard",
+      "options": [
+        "Axiomatically",
+        "Axiomaticalyl",
+        "Axomatically",
+        "Axiiomatically"
+      ]
+    },
+    {
+      "word": "Harmoniously",
+      "hint": "Peacefully and agreeably",
+      "level": "hard",
+      "options": [
+        "Harmoniously",
+        "Harmonioussly",
+        "Harmoniousy",
+        "Harmoneously"
+      ]
+    },
+    {
+      "word": "Corollary",
+      "hint": "A result that naturally follows",
+      "level": "medium",
+      "options": [
+        "Corollary",
+        "Corollaryy",
+        "Corellary",
+        "Coorllary"
+      ]
+    },
+    {
+      "word": "Scrupulously",
+      "hint": "Very carefully and honestly",
+      "level": "hard",
+      "options": [
+        "Scrupulously",
+        "Scruupulously",
+        "Scrupalously",
+        "Scrupuloulsy"
+      ]
+    },
+    {
+      "word": "Scrupulous",
+      "hint": "Very careful and honest",
+      "level": "medium",
+      "options": [
+        "Scrupulous",
+        "Scrupuloos",
+        "Scrupulus",
+        "Scrupuolus"
+      ]
+    },
+    {
+      "word": "Henceforth",
+      "hint": "From now on",
+      "level": "medium",
+      "options": [
+        "Henceforth",
+        "Hencfeorth",
+        "Hencoforth",
+        "Henseforth"
+      ]
+    },
+    {
+      "word": "Curial",
+      "hint": "Related to a court",
+      "level": "easy",
+      "options": [
+        "Curial",
+        "Crial",
+        "Currial",
+        "Curaal"
+      ]
+    },
+    {
+      "word": "Voluminous",
+      "hint": "Very large in amount",
+      "level": "medium",
+      "options": [
+        "Voluminous",
+        "Voluminus",
+        "Voluminnous",
+        "Volminous"
+      ]
+    },
+    {
+      "word": "Fascist",
+      "hint": "Supporting strict authoritarian control",
+      "level": "medium",
+      "options": [
+        "Fascist",
+        "Fascisst",
+        "Fascits",
+        "Fascit"
+      ]
+    },
+    {
+      "word": "Triplicate",
+      "hint": "Three copies of something",
+      "level": "medium",
+      "options": [
+        "Triplicate",
+        "Triplisate",
+        "Trilicate",
+        "Triplicatte"
+      ]
+    },
+    {
+      "word": "Courteous",
+      "hint": "Polite and respectful",
+      "level": "medium",
+      "options": [
+        "Courteous",
+        "Coruteous",
+        "Caurteous",
+        "Corteous"
+      ]
+    },
+    {
+      "word": "Append",
+      "hint": "To add at the end",
+      "level": "easy",
+      "options": [
+        "Append",
+        "Appnd",
+        "Appund",
+        "Apppend"
+      ]
+    },
+    {
+      "word": "Well-settled",
+      "hint": "Clearly established and accepted",
+      "level": "hard",
+      "options": [
+        "Well-settled",
+        "Wel-settled",
+        "Wull-settled",
+        "Well-setled"
+      ]
+    },
+    {
+      "word": "Concise",
+      "hint": "Short but complete",
+      "level": "medium",
+      "options": [
+        "Concise",
+        "Cocnise",
+        "Concize",
+        "Cencise"
+      ]
+    },
+    {
+      "word": "Severely",
+      "hint": "Very seriously or harshly",
+      "level": "medium",
+      "options": [
+        "Severely",
+        "Seerely",
+        "Sevarely",
+        "ceverely"
+      ]
+    },
+    {
+      "word": "Expressly",
+      "hint": "Clearly and directly",
+      "level": "medium",
+      "options": [
+        "Expressly",
+        "Expresly",
+        "Oxpressly",
+        "Exprssly"
+      ]
+    },
+    {
+      "word": "Extraneous",
+      "hint": "Unnecessary or unrelated",
+      "level": "medium",
+      "options": [
+        "Extraneous",
+        "Exrtaneous",
+        "Extraneus",
+        "Extruneous"
+      ]
+    },
+    {
+      "word": "Propellant",
+      "hint": "A substance that pushes something forward",
+      "level": "medium",
+      "options": [
+        "Propellant",
+        "Propelllant",
+        "Propellnt",
+        "Propelant"
+      ]
+    },
+    {
+      "word": "Prognosis",
+      "hint": "A prediction about future development",
+      "level": "medium",
+      "options": [
+        "Prognosis",
+        "Prognsis",
+        "Prognocis",
+        "Prognesis"
+      ]
+    },
+    {
+      "word": "Apprehend",
+      "hint": "To understand or arrest",
+      "level": "medium",
+      "options": [
+        "Apprehend",
+        "Aprehend",
+        "Apprehned",
+        "Apprehennd"
+      ]
+    },
+    {
+      "word": "Liaison",
+      "hint": "Cooperation or communication",
+      "level": "medium",
+      "options": [
+        "Liaison",
+        "Liaisoon",
+        "Liaisan",
+        "Liaicon"
+      ]
+    },
+    {
+      "word": "Promulgating",
+      "hint": "Officially announcing or spreading",
+      "level": "hard",
+      "options": [
+        "Promulgating",
+        "Prmoulgating",
+        "Promugating",
+        "Proomulgating"
+      ]
+    },
+    {
+      "word": "Totalitarian",
+      "hint": "Having complete government control",
+      "level": "hard",
+      "options": [
+        "Totalitarian",
+        "Totalitaian",
+        "Ttoalitarian",
+        "Totilitarian"
+      ]
+    },
+    {
+      "word": "Dereliction",
+      "hint": "Neglect of one's duty",
+      "level": "hard",
+      "options": [
+        "Dereliction",
+        "Dereliciton",
+        "Derelistion",
+        "Derelliction"
+      ]
+    },
+    {
+      "word": "Lopsided",
+      "hint": "Unequal or unbalanced",
+      "level": "medium",
+      "options": [
+        "Lopsided",
+        "Lopsdied",
+        "Lopsidad",
+        "Lopsded"
+      ]
+    },
+    {
+      "word": "Air Staff",
+      "hint": "Senior officers managing an air force",
+      "level": "medium",
+      "options": [
+        "Air Staff",
+        "Ai Staff",
+        "Oir Staff",
+        "Air ctaff"
+      ]
+    },
+    {
+      "word": "Air Force",
+      "hint": "Military force using aircraft",
+      "level": "medium",
+      "options": [
+        "Air Force",
+        "Air Forse",
+        "Aiir Force",
+        "Air Forec"
+      ]
+    },
+    {
+      "word": "Secretive",
+      "hint": "Not willing to share information",
+      "level": "medium",
+      "options": [
+        "Secretive",
+        "Secretivee",
+        "cecretive",
+        "Secrteive"
+      ]
+    },
+    {
+      "word": "Dilly-dallying",
+      "hint": "Wasting time by delaying",
+      "level": "hard",
+      "options": [
+        "Dilly-dallying",
+        "Dily-dallying",
+        "Dilly-dallyinng",
+        "Dilly-dalliyng"
+      ]
+    },
+    {
+      "word": "Viewpoints",
+      "hint": "Opinions or ways of seeing something",
+      "level": "medium",
+      "options": [
+        "Viewpoints",
+        "Viewpiints",
+        "Veiwpoints",
+        "Viewponits"
+      ]
+    },
+    {
+      "word": "Rectified",
+      "hint": "Corrected or fixed",
+      "level": "medium",
+      "options": [
+        "Rectified",
+        "Rectifeid",
+        "Rectifieed",
+        "Rectifed"
+      ]
+    },
+    {
+      "word": "Consensus",
+      "hint": "General agreement",
+      "level": "medium",
+      "options": [
+        "Consensus",
+        "sonsensus",
+        "Conensus",
+        "Consenssus"
+      ]
+    },
+    {
+      "word": "One-man",
+      "hint": "Done or controlled by one person",
+      "level": "easy",
+      "options": [
+        "One-man",
+        "One-mn",
+        "One-mun",
+        "One-amn"
+      ]
+    },
+    {
+      "word": "One-party",
+      "hint": "Involving only one political party",
+      "level": "medium",
+      "options": [
+        "One-party",
+        "Oe-party",
+        "Onne-party",
+        "One-paryt"
+      ]
+    },
+    {
+      "word": "So-called",
+      "hint": "Described by a name that may be doubtful",
+      "level": "medium",
+      "options": [
+        "So-called",
+        "So-callled",
+        "So-callod",
+        "co-called"
+      ]
+    },
+    {
+      "word": "Despotic",
+      "hint": "Cruelly controlling",
+      "level": "medium",
+      "options": [
+        "Despotic",
+        "Despotuc",
+        "Desoptic",
+        "Desotic"
+      ]
+    },
+    {
+      "word": "Rioting",
+      "hint": "Taking part in violent public disorder",
+      "level": "medium",
+      "options": [
+        "Rioting",
+        "Riotng",
+        "Riotiing",
+        "Riotnig"
+      ]
+    },
+    {
+      "word": "Sovereign",
+      "hint": "Fully independent and self-governing",
+      "level": "medium",
+      "options": [
+        "Sovereign",
+        "Sivereign",
+        "Sovereignn",
+        "covereign"
+      ]
+    },
+    {
+      "word": "Ascended",
+      "hint": "Went up or rose",
+      "level": "medium",
+      "options": [
+        "Ascended",
+        "Asceended",
+        "Asended",
+        "Ascenedd"
+      ]
+    },
+    {
+      "word": "Fortress",
+      "hint": "A strongly protected building",
+      "level": "medium",
+      "options": [
+        "Fortress",
+        "Fortrecs",
+        "Fortriss",
+        "Forress"
+      ]
+    },
+    {
+      "word": "In front",
+      "hint": "Ahead of or before",
+      "level": "medium",
+      "options": [
+        "In front",
+        "In frront",
+        "In fornt",
+        "In frent"
+      ]
+    },
+    {
+      "word": "Extravagant",
+      "hint": "Too expensive or excessive",
+      "level": "hard",
+      "options": [
+        "Extravagant",
+        "Extravaagant",
+        "Extravagatn",
+        "Axtravagant"
+      ]
+    },
+    {
+      "word": "Accession",
+      "hint": "Joining or gaining a position",
+      "level": "medium",
+      "options": [
+        "Accession",
+        "Accessian",
+        "Accesson",
+        "Accesison"
+      ]
+    },
+    {
+      "word": "Trajectory",
+      "hint": "The path followed by something moving",
+      "level": "medium",
+      "options": [
+        "Trajectory",
+        "Trjectory",
+        "Tarjectory",
+        "Trajecttory"
+      ]
+    },
+    {
+      "word": "Ballot",
+      "hint": "A vote or voting paper",
+      "level": "easy",
+      "options": [
+        "Ballot",
+        "Balot",
+        "Ballut",
+        "Baallot"
+      ]
+    },
+    {
+      "word": "Mystical",
+      "hint": "Related to mysterious or spiritual things",
+      "level": "medium",
+      "options": [
+        "Mystical",
+        "Mystisal",
+        "Mstical",
+        "Mysitcal"
+      ]
+    },
+    {
+      "word": "Mystique",
+      "hint": "An air of mystery or special appeal",
+      "level": "medium",
+      "options": [
+        "Mystique",
+        "Mystiqque",
+        "Mystuque",
+        "Myctique"
+      ]
+    },
+    {
+      "word": "Airfield",
+      "hint": "A place where aircraft take off and land",
+      "level": "medium",
+      "options": [
+        "Airfield",
+        "Oirfield",
+        "Airfiedl",
+        "Airfied"
+      ]
+    },
+    {
+      "word": "Aircraft",
+      "hint": "A machine that flies",
+      "level": "medium",
+      "options": [
+        "Aircraft",
+        "Aurcraft",
+        "Aricraft",
+        "Airraft"
+      ]
+    },
+    {
+      "word": "Double-fold",
+      "hint": "Twice as much or in two parts",
+      "level": "medium",
+      "options": [
+        "Double-fold",
+        "Double-ofld",
+        "Double-ffold",
+        "Doble-fold"
+      ]
+    },
+    {
+      "word": "Multifaceted",
+      "hint": "Having many different aspects",
+      "level": "hard",
+      "options": [
+        "Multifaceted",
+        "Multifaseted",
+        "Mutifaceted",
+        "Multtifaceted"
+      ]
+    },
+    {
+      "word": "Ramifications",
+      "hint": "Effects or consequences",
+      "level": "hard",
+      "options": [
+        "Ramifications",
+        "Ramificatiens",
+        "Ramifiactions",
+        "Ramificaations"
+      ]
+    },
+    {
+      "word": "Decision-making",
+      "hint": "The process of making choices",
+      "level": "hard",
+      "options": [
+        "Decision-making",
+        "Decition-making",
+        "Dceision-making",
+        "Decisuon-making"
+      ]
+    },
+    {
+      "word": "Text-backed",
+      "hint": "Supported by written evidence",
+      "level": "medium",
+      "options": [
+        "Text-backed",
+        "Txt-backed",
+        "Text-backedd",
+        "Text-backad"
+      ]
+    },
+    {
+      "word": "Discernment",
+      "hint": "Ability to understand differences clearly",
+      "level": "hard",
+      "options": [
+        "Discernment",
+        "Discernmennt",
+        "Dascernment",
+        "Discrenment"
+      ]
+    },
+    {
+      "word": "Erroneous",
+      "hint": "Incorrect or mistaken",
+      "level": "medium",
+      "options": [
+        "Erroneous",
+        "Erroneus",
+        "Eroneous",
+        "Errooneous"
+      ]
+    },
+    {
+      "word": "Abreast",
+      "hint": "Up to date with information",
+      "level": "medium",
+      "options": [
+        "Abreast",
+        "Abreact",
+        "Abreest",
+        "Abreats"
+      ]
+    },
+    {
+      "word": "Oblivion",
+      "hint": "A state of being forgotten",
+      "level": "medium",
+      "options": [
+        "Oblivion",
+        "Oblivioon",
+        "Obliivon",
+        "Obliviin"
+      ]
+    },
+    {
+      "word": "Wrongdoers",
+      "hint": "People who do something wrong",
+      "level": "medium",
+      "options": [
+        "Wrongdoers",
+        "Wrongdors",
+        "Wronggdoers",
+        "Wrongoders"
+      ]
+    },
+    {
+      "word": "Slipshod",
+      "hint": "Careless or poorly done",
+      "level": "medium",
+      "options": [
+        "Slipshod",
+        "Silpshod",
+        "Slepshod",
+        "clipshod"
+      ]
+    },
+    {
+      "word": "Perilously",
+      "hint": "In a dangerously risky way",
+      "level": "medium",
+      "options": [
+        "Perilously",
+        "Perlously",
+        "Periloosly",
+        "Periloucly"
+      ]
+    },
+    {
+      "word": "Surmises",
+      "hint": "Guesses based on incomplete information",
+      "level": "medium",
+      "options": [
+        "Surmises",
+        "Suurmises",
+        "Surmizes",
+        "Sormises"
+      ]
+    },
+    {
+      "word": "Hooligan",
+      "hint": "A violent or troublesome person",
+      "level": "medium",
+      "options": [
+        "Hooligan",
+        "Hooliigan",
+        "Hoolugan",
+        "Hoolgan"
+      ]
+    },
+    {
+      "word": "Traversed",
+      "hint": "Travelled across",
+      "level": "medium",
+      "options": [
+        "Traversed",
+        "Travresed",
+        "Travarsed",
+        "Traverced"
+      ]
+    },
+    {
+      "word": "Decisively",
+      "hint": "In a firm and definite way",
+      "level": "medium",
+      "options": [
+        "Decisively",
+        "Decicively",
+        "Decsively",
+        "Decisevely"
+      ]
+    },
+    {
+      "word": "Technocrats",
+      "hint": "Experts who help run systems",
+      "level": "hard",
+      "options": [
+        "Technocrats",
+        "Tichnocrats",
+        "Technocats",
+        "Tehcnocrats"
+      ]
+    },
+    {
+      "word": "Pessimism",
+      "hint": "Expecting bad things to happen",
+      "level": "medium",
+      "options": [
+        "Pessimism",
+        "Pecsimism",
+        "Pessiism",
+        "Pessimismm"
+      ]
+    },
+    {
+      "word": "Nascent",
+      "hint": "Just beginning to develop",
+      "level": "medium",
+      "options": [
+        "Nascent",
+        "Naccent",
+        "Nascet",
+        "Nascetn"
+      ]
+    },
+    {
+      "word": "Alongside",
+      "hint": "Next to or together with",
+      "level": "medium",
+      "options": [
+        "Alongside",
+        "Alongcide",
+        "Alongsied",
+        "Alongsie"
+      ]
+    },
+    {
+      "word": "Fifth-largest",
+      "hint": "The fifth biggest",
+      "level": "hard",
+      "options": [
+        "Fifth-largest",
+        "Fifth-largect",
+        "Fifth-largust",
+        "Fifth-laargest"
+      ]
+    },
+    {
+      "word": "Long-range",
+      "hint": "Covering a long distance or time",
+      "level": "medium",
+      "options": [
+        "Long-range",
+        "Lng-range",
+        "Long-arnge",
+        "Long-rannge"
+      ]
+    },
+    {
+      "word": "Dossier",
+      "hint": "A collection of information",
+      "level": "medium",
+      "options": [
+        "Dossier",
+        "Dosiser",
+        "Dassier",
+        "Dosier"
+      ]
+    },
+    {
+      "word": "Heavy-duty",
+      "hint": "Made for very hard use",
+      "level": "medium",
+      "options": [
+        "Heavy-duty",
+        "Haevy-duty",
+        "Heevy-duty",
+        "Hevy-duty"
+      ]
+    },
+    {
+      "word": "Tripartite",
+      "hint": "Involving three parties",
+      "level": "medium",
+      "options": [
+        "Tripartite",
+        "Tripartete",
+        "Triartite",
+        "Triparttie"
+      ]
+    },
+    {
+      "word": "Averred",
+      "hint": "Stated firmly",
+      "level": "medium",
+      "options": [
+        "Averred",
+        "Averrred",
+        "Avered",
+        "Averrde"
+      ]
+    },
+    {
+      "word": "Vexatious",
+      "hint": "Causing annoyance or trouble",
+      "level": "medium",
+      "options": [
+        "Vexatious",
+        "Vexaious",
+        "Voxatious",
+        "Vexatiuos"
+      ]
+    },
+    {
+      "word": "Emanated",
+      "hint": "Came or originated from somewhere",
+      "level": "medium",
+      "options": [
+        "Emanated",
+        "Emanatud",
+        "Eamnated",
+        "Emannated"
+      ]
+    },
+    {
+      "word": "Emanating",
+      "hint": "Coming or spreading from somewhere",
+      "level": "medium",
+      "options": [
+        "Emanating",
+        "Emnating",
+        "Emanaating",
+        "Emanatign"
+      ]
+    },
+    {
+      "word": "Harassment",
+      "hint": "Repeated unwanted behaviour",
+      "level": "medium",
+      "options": [
+        "Harassment",
+        "Horassment",
+        "Harsasment",
+        "Harasment"
+      ]
+    },
+    {
+      "word": "Heinous",
+      "hint": "Extremely evil or cruel",
+      "level": "medium",
+      "options": [
+        "Heinous",
+        "Heiinous",
+        "Heunous",
+        "Heinouc"
+      ]
+    },
+    {
+      "word": "Prosecutrix",
+      "hint": "A woman who brings a criminal case",
+      "level": "hard",
+      "options": [
+        "Prosecutrix",
+        "Prsecutrix",
+        "Proosecutrix",
+        "Proseuctrix"
+      ]
+    },
+    {
+      "word": "Abhorrent",
+      "hint": "Extremely hateful or unacceptable",
+      "level": "medium",
+      "options": [
+        "Abhorrent",
+        "Abhorent",
+        "Abhorrentt",
+        "Abhrorent"
+      ]
+    },
+    {
+      "word": "Acquaintance",
+      "hint": "Someone you know but not closely",
+      "level": "hard",
+      "options": [
+        "Acquaintance",
+        "Asquaintance",
+        "Acquaintane",
+        "Acquanitance"
+      ]
+    },
+    {
+      "word": "Fiduciary",
+      "hint": "Someone trusted to manage another's money",
+      "level": "medium",
+      "options": [
+        "Fiduciary",
+        "Fidusiary",
+        "Fiducciary",
+        "Fiduciery"
+      ]
+    },
+    {
+      "word": "Inaugurated",
+      "hint": "Officially opened or started",
+      "level": "hard",
+      "options": [
+        "Inaugurated",
+        "Inauguated",
+        "Inuugurated",
+        "Inauguarted"
+      ]
+    },
+    {
+      "word": "Derision",
+      "hint": "Mockery or ridicule",
+      "level": "medium",
+      "options": [
+        "Derision",
+        "Dersiion",
+        "Derisin",
+        "Dericion"
+      ]
+    },
+    {
+      "word": "Dexterity",
+      "hint": "Skill in using your hands",
+      "level": "medium",
+      "options": [
+        "Dexterity",
+        "Dexteroty",
+        "Dextrity",
+        "Dexterityy"
+      ]
+    },
+    {
+      "word": "Schizophrenia",
+      "hint": "A serious mental health disorder",
+      "level": "hard",
+      "options": [
+        "Schizophrenia",
+        "Schizophrenoa",
+        "Schizophrennia",
+        "Schizohrenia"
+      ]
+    },
+    {
+      "word": "Exacerbating",
+      "hint": "Making a problem worse",
+      "level": "hard",
+      "options": [
+        "Exacerbating",
+        "Oxacerbating",
+        "Exaserbating",
+        "Exacerbtaing"
+      ]
+    },
+    {
+      "word": "Elusive",
+      "hint": "Difficult to find or understand",
+      "level": "medium",
+      "options": [
+        "Elusive",
+        "Elisive",
+        "Eluive",
+        "Elucive"
+      ]
+    },
+    {
+      "word": "Eradication",
+      "hint": "Complete removal",
+      "level": "hard",
+      "options": [
+        "Eradication",
+        "Eradicaion",
+        "Eradiication",
+        "Eradicataon"
+      ]
+    },
+    {
+      "word": "Profiteering",
+      "hint": "Making unfairly large profits",
+      "level": "hard",
+      "options": [
+        "Profiteering",
+        "Profitaering",
+        "Proifteering",
+        "Profiteerinng"
+      ]
+    },
+    {
+      "word": "Augury",
+      "hint": "A sign believed to predict the future",
+      "level": "easy",
+      "options": [
+        "Augury",
+        "Auugury",
+        "Aegury",
+        "Agury"
+      ]
+    },
+    {
+      "word": "Mesopotamia",
+      "hint": "An ancient region between two rivers",
+      "level": "hard",
+      "options": [
+        "Mesopotamia",
+        "Mecopotamia",
+        "Misopotamia",
+        "Mesoptamia"
+      ]
+    },
+    {
+      "word": "Draconian",
+      "hint": "Extremely harsh or strict",
+      "level": "medium",
+      "options": [
+        "Draconian",
+        "Drasonian",
+        "Dracnian",
+        "Draconiaan"
+      ]
+    },
+    {
+      "word": "Perpetrator",
+      "hint": "Person who commits a crime",
+      "level": "hard",
+      "options": [
+        "Perpetrator",
+        "Perpotrator",
+        "Perpetartor",
+        "Perpeetrator"
+      ]
+    },
+    {
+      "word": "Purported",
+      "hint": "Claimed to be true but not proven",
+      "level": "medium",
+      "options": [
+        "Purported",
+        "Purpported",
+        "Purpotred",
+        "Purpoted"
+      ]
+    },
+    {
+      "word": "Abolitionists",
+      "hint": "People who want to end a practice",
+      "level": "hard",
+      "options": [
+        "Abolitionists",
+        "Ablitionists",
+        "Abolisionists",
+        "Abolotionists"
+      ]
+    },
+    {
+      "word": "Dilemma",
+      "hint": "A difficult choice",
+      "level": "medium",
+      "options": [
+        "Dilemma",
+        "Dilmema",
+        "Dilema",
+        "Dulemma"
+      ]
+    },
+    {
+      "word": "Lessening",
+      "hint": "Becoming smaller or weaker",
+      "level": "medium",
+      "options": [
+        "Lessening",
+        "Lesening",
+        "Lissening",
+        "Lessennig"
+      ]
+    },
+    {
+      "word": "Marxist",
+      "hint": "Related to the ideas of Karl Marx",
+      "level": "medium",
+      "options": [
+        "Marxist",
+        "Marxisst",
+        "Mraxist",
+        "Marxest"
+      ]
+    },
+    {
+      "word": "Leninist",
+      "hint": "Related to the ideas of Vladimir Lenin",
+      "level": "medium",
+      "options": [
+        "Leninist",
+        "Leninnist",
+        "Leinnist",
+        "Leninict"
+      ]
+    },
+    {
+      "word": "Insurgency",
+      "hint": "An organized rebellion",
+      "level": "medium",
+      "options": [
+        "Insurgency",
+        "Insurgenyc",
+        "Ensurgency",
+        "Inurgency"
+      ]
+    },
+    {
+      "word": "Shedding",
+      "hint": "Losing or removing something",
+      "level": "medium",
+      "options": [
+        "Shedding",
+        "chedding",
+        "Shedidng",
+        "Sheedding"
+      ]
+    },
+    {
+      "word": "Chhattisgarh",
+      "hint": "An Indian state",
+      "level": "hard",
+      "options": [
+        "Chhattisgarh",
+        "Chhattissgarh",
+        "Chhattisgurh",
+        "shhattisgarh"
+      ]
+    },
+    {
+      "word": "Guerrilla",
+      "hint": "A fighter using surprise attacks",
+      "level": "medium",
+      "options": [
+        "Guerrilla",
+        "Guerrila",
+        "Gurerilla",
+        "Guerilla"
+      ]
+    },
+    {
+      "word": "Bottlenecks",
+      "hint": "Problems that slow progress",
+      "level": "hard",
+      "options": [
+        "Bottlenecks",
+        "Bottlenesks",
+        "Botlenecks",
+        "Botttlenecks"
+      ]
+    },
+    {
+      "word": "Magnificent",
+      "hint": "Extremely beautiful or impressive",
+      "level": "hard",
+      "options": [
+        "Magnificent",
+        "Magnificcent",
+        "Magnificnt",
+        "Magnifisent"
+      ]
+    },
+    {
+      "word": "Materialize",
+      "hint": "To happen or become real",
+      "level": "hard",
+      "options": [
+        "Materialize",
+        "Materialie",
+        "Miterialize",
+        "Materiailze"
+      ]
+    },
+    {
+      "word": "Annihilation",
+      "hint": "Complete destruction",
+      "level": "hard",
+      "options": [
+        "Annihilation",
+        "Annihilasion",
+        "Aninhilation",
+        "Annhilation"
+      ]
+    },
+    {
+      "word": "Holistic",
+      "hint": "Considering everything as a whole",
+      "level": "medium",
+      "options": [
+        "Holistic",
+        "Holstic",
+        "Holictic",
+        "Holitsic"
+      ]
+    },
+    {
+      "word": "Reimbursement",
+      "hint": "Money paid back for an expense",
+      "level": "hard",
+      "options": [
+        "Reimbursement",
+        "Riembursement",
+        "Reimbursemennt",
+        "Reimbursoment"
+      ]
+    },
+    {
+      "word": "Storytelling",
+      "hint": "The act of telling stories",
+      "level": "hard",
+      "options": [
+        "Storytelling",
+        "Storytleling",
+        "Storrytelling",
+        "Storytalling"
+      ]
+    },
+    {
+      "word": "Garnering",
+      "hint": "Collecting or gaining",
+      "level": "medium",
+      "options": [
+        "Garnering",
+        "Garnerinng",
+        "Garering",
+        "Garnereng"
+      ]
+    },
+    {
+      "word": "Black-and-white",
+      "hint": "Very clear with no middle ground",
+      "level": "hard",
+      "options": [
+        "Black-and-white",
+        "Black-and-wwhite",
+        "Black-end-white",
+        "Blask-and-white"
+      ]
+    },
+    {
+      "word": "Larger-than-life",
+      "hint": "Unusually impressive or exciting",
+      "level": "hard",
+      "options": [
+        "Larger-than-life",
+        "Larger-than-lfie",
+        "Larger-thon-life",
+        "Larger-than-lfe"
+      ]
+    },
+    {
+      "word": "Niche",
+      "hint": "A special area or role",
+      "level": "easy",
+      "options": [
+        "Niche",
+        "Nishe",
+        "Nche",
+        "Nichhe"
+      ]
+    },
+    {
+      "word": "Brethren",
+      "hint": "Members of the same group",
+      "level": "medium",
+      "options": [
+        "Brethren",
+        "Brethrren",
+        "Bretrhen",
+        "Brithren"
+      ]
+    },
+    {
+      "word": "Elicit",
+      "hint": "To get a response or information",
+      "level": "easy",
+      "options": [
+        "Elicit",
+        "Elisit",
+        "Ellicit",
+        "Elciit"
+      ]
+    },
+    {
+      "word": "Non-repatriable",
+      "hint": "Not able to be sent back",
+      "level": "hard",
+      "options": [
+        "Non-repatriable",
+        "Non-reppatriable",
+        "Non-repatriible",
+        "Nen-repatriable"
+      ]
+    },
+    {
+      "word": "Interrogate",
+      "hint": "To question closely",
+      "level": "hard",
+      "options": [
+        "Interrogate",
+        "Interroogate",
+        "Interroate",
+        "Interrogote"
+      ]
+    },
+    {
+      "word": "Eradicate",
+      "hint": "To completely remove",
+      "level": "medium",
+      "options": [
+        "Eradicate",
+        "Eradisate",
+        "Erudicate",
+        "Eradciate"
+      ]
+    },
+    {
+      "word": "Indebted",
+      "hint": "Owing money or being very thankful",
+      "level": "medium",
+      "options": [
+        "Indebted",
+        "Indebtedd",
+        "Indebetd",
+        "Andebted"
+      ]
+    },
+    {
+      "word": "Indebtedness",
+      "hint": "The state of owing money",
+      "level": "hard",
+      "options": [
+        "Indebtedness",
+        "Indbetedness",
+        "Indebedness",
+        "Indobtedness"
+      ]
+    },
+    {
+      "word": "Deterioration",
+      "hint": "The process of becoming worse",
+      "level": "hard",
+      "options": [
+        "Deterioration",
+        "Deterioraation",
+        "Deteriaration",
+        "Deteriortion"
+      ]
+    },
+    {
+      "word": "Divisiveness",
+      "hint": "Causing people to disagree or separate",
+      "level": "hard",
+      "options": [
+        "Divisiveness",
+        "Divisivaness",
+        "Divisivenes",
+        "Divisiiveness"
+      ]
+    },
+    {
+      "word": "Indigenous",
+      "hint": "Originally belonging to a place",
+      "level": "medium",
+      "options": [
+        "Indigenous",
+        "Indigenouc",
+        "Indigenus",
+        "Indigenoas"
+      ]
+    },
+    {
+      "word": "Trammelled",
+      "hint": "Restricted or held back",
+      "level": "medium",
+      "options": [
+        "Trammelled",
+        "Trammellod",
+        "Trammeled",
+        "Trammmelled"
+      ]
+    },
+    {
+      "word": "Tattered",
+      "hint": "Old, torn, and damaged",
+      "level": "medium",
+      "options": [
+        "Tattered",
+        "Tettered",
+        "Tttered",
+        "Tatteerd"
+      ]
+    },
+    {
+      "word": "Arbitrariness",
+      "hint": "Lack of reason or fairness",
+      "level": "hard",
+      "options": [
+        "Arbitrariness",
+        "Arbitrarinecs",
+        "Arbitrarines",
+        "Arbitrarineess"
+      ]
+    },
+    {
+      "word": "Inextricably",
+      "hint": "Impossible to separate",
+      "level": "hard",
+      "options": [
+        "Inextricably",
+        "Inextricaby",
+        "Inextrisably",
+        "Inextricibly"
+      ]
+    },
+    {
+      "word": "Grassroots",
+      "hint": "Ordinary people at the local level",
+      "level": "medium",
+      "options": [
+        "Grassroots",
+        "Grassroits",
+        "Gracsroots",
+        "Grassroost"
+      ]
+    },
+    {
+      "word": "One-time",
+      "hint": "Happening only once",
+      "level": "medium",
+      "options": [
+        "One-time",
+        "One-timme",
+        "One-itme",
+        "Oe-time"
+      ]
+    },
+    {
+      "word": "Groundwork",
+      "hint": "Basic preparation for something",
+      "level": "medium",
+      "options": [
+        "Groundwork",
+        "Groundwok",
+        "Groendwork",
+        "Groudnwork"
+      ]
+    },
+    {
+      "word": "Tandem",
+      "hint": "Working together",
+      "level": "easy",
+      "options": [
+        "Tandem",
+        "Tandum",
+        "Tandemm",
+        "Tandm"
+      ]
+    },
+    {
+      "word": "Layoffs",
+      "hint": "Loss of jobs because workers are not needed",
+      "level": "medium",
+      "options": [
+        "Layoffs",
+        "Layofsf",
+        "Layffs",
+        "Layyoffs"
+      ]
+    },
+    {
+      "word": "Downsizing",
+      "hint": "Reducing the size of a company",
+      "level": "medium",
+      "options": [
+        "Downsizing",
+        "Downizing",
+        "Downsizzing",
+        "Downsizign"
+      ]
+    },
+    {
+      "word": "Startups",
+      "hint": "New businesses",
+      "level": "medium",
+      "options": [
+        "Startups",
+        "ctartups",
+        "Strtups",
+        "Startusp"
+      ]
+    },
+    {
+      "word": "Wilful",
+      "hint": "Done intentionally",
+      "level": "easy",
+      "options": [
+        "Wilful",
+        "Wilfl",
+        "Wilufl",
+        "Wilfol"
+      ]
+    },
+    {
+      "word": "Securitisation",
+      "hint": "Turning assets into tradable securities",
+      "level": "hard",
+      "options": [
+        "Securitisation",
+        "Seucritisation",
+        "Securitisationn",
+        "Sucuritisation"
+      ]
+    },
+    {
+      "word": "Outflows",
+      "hint": "Money or resources moving out",
+      "level": "medium",
+      "options": [
+        "Outflows",
+        "Otflows",
+        "Ouutflows",
+        "Outflosw"
+      ]
+    },
+    {
+      "word": "Nonchalantly",
+      "hint": "In a calm, unconcerned way",
+      "level": "hard",
+      "options": [
+        "Nonchalantly",
+        "Nocnhalantly",
+        "Nonchalently",
+        "Nonhalantly"
+      ]
+    },
+    {
+      "word": "Debilitating",
+      "hint": "Making someone or something weaker",
+      "level": "hard",
+      "options": [
+        "Debilitating",
+        "Debilitaitng",
+        "Debolitating",
+        "Debilitatng"
+      ]
+    },
+    {
+      "word": "Overdrawals",
+      "hint": "Money taken beyond the bank balance",
+      "level": "hard",
+      "options": [
+        "Overdrawals",
+        "Oevrdrawals",
+        "Overdrwals",
+        "Ovverdrawals"
+      ]
+    }
   ]
 }
